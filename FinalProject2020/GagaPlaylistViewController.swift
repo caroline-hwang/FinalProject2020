@@ -10,13 +10,27 @@ import UIKit
 
 class GagaPlaylistViewController: UIViewController {
 
+    
+    @IBOutlet weak var gagaLink: UITextView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        updateTextView()
 
         // Do any additional setup after loading the view.
     }
     
+    func updateTextView(){
+    let path = "https://music.apple.com/us/playlist/cooking-with-the-stars-lady-gaga/pl.u-9N9LLpdI4Lb1Np"
+    let text = gagaLink.text ?? ""
+    let attributedString = NSAttributedString.makeHyperlink(for: path, in: text, as: "Click to open Lady Gaga playlist in Apple Music")
+    let font = gagaLink.font
+    let textColor = gagaLink.textColor
+    gagaLink.attributedText = attributedString
+    gagaLink.font = font
+    gagaLink.textColor = textColor
 
+    }
     /*
     // MARK: - Navigation
 

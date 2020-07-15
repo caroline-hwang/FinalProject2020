@@ -15,7 +15,7 @@
 		B96C3C0F24BE225200A392B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B96C3C0E24BE225200A392B2 /* Assets.xcassets */; };
 		B96C3C1224BE225200A392B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B96C3C1024BE225200A392B2 /* LaunchScreen.storyboard */; };
 		B9764B9124BF8FEB006546AF /* LeaPlaylistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9764B9024BF8FEB006546AF /* LeaPlaylistViewController.swift */; };
-		B9764B9324BF9321006546AF /* GagaPlaylistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9764B9224BF9321006546AF /* GagaPlaylistViewController.swift */; };
+		B9764B9524BF97A0006546AF /* GagaPlaylistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9764B9424BF97A0006546AF /* GagaPlaylistViewController.swift */; };
 		B9876CCC24BF523D00DBA7AE /* DollyPlaylistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9876CCB24BF523D00DBA7AE /* DollyPlaylistViewController.swift */; };
 		B9876CCE24BF541D00DBA7AE /* NSAttributedStringDolly.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9876CCD24BF541D00DBA7AE /* NSAttributedStringDolly.swift */; };
 /* End PBXBuildFile section */
@@ -31,7 +31,7 @@
 		B96C3C1124BE225200A392B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B96C3C1324BE225200A392B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B9764B9024BF8FEB006546AF /* LeaPlaylistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaPlaylistViewController.swift; sourceTree = "<group>"; };
-		B9764B9224BF9321006546AF /* GagaPlaylistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GagaPlaylistViewController.swift; sourceTree = "<group>"; };
+		B9764B9424BF97A0006546AF /* GagaPlaylistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GagaPlaylistViewController.swift; sourceTree = "<group>"; };
 		B9876CCB24BF523D00DBA7AE /* DollyPlaylistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DollyPlaylistViewController.swift; sourceTree = "<group>"; };
 		B9876CCD24BF541D00DBA7AE /* NSAttributedStringDolly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSAttributedStringDolly.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -70,10 +70,10 @@
 				B96C3C0424BE224F00A392B2 /* SceneDelegate.swift */,
 				B96C3C0624BE224F00A392B2 /* ViewController.swift */,
 				B96C3C0824BE224F00A392B2 /* Main.storyboard */,
-				B9764B9224BF9321006546AF /* GagaPlaylistViewController.swift */,
+				B9764B9424BF97A0006546AF /* GagaPlaylistViewController.swift */,
 				B9764B9024BF8FEB006546AF /* LeaPlaylistViewController.swift */,
-				B9876CCD24BF541D00DBA7AE /* NSAttributedStringDolly.swift */,
 				B9876CCB24BF523D00DBA7AE /* DollyPlaylistViewController.swift */,
+				B9876CCD24BF541D00DBA7AE /* NSAttributedStringDolly.swift */,
 				B96C3C0E24BE225200A392B2 /* Assets.xcassets */,
 				B96C3C1024BE225200A392B2 /* LaunchScreen.storyboard */,
 				B96C3C1324BE225200A392B2 /* Info.plist */,
@@ -153,7 +153,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B9764B9324BF9321006546AF /* GagaPlaylistViewController.swift in Sources */,
+				B9764B9524BF97A0006546AF /* GagaPlaylistViewController.swift in Sources */,
 				B96C3C0724BE224F00A392B2 /* ViewController.swift in Sources */,
 				B96C3C0324BE224F00A392B2 /* AppDelegate.swift in Sources */,
 				B96C3C0D24BE224F00A392B2 /* FinalProject2020.xcdatamodeld in Sources */,

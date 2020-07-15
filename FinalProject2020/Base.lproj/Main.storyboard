@@ -445,6 +445,9 @@
                                                 <state key="normal" title="Click here for playlist">
                                                     <color key="titleColor" red="0.74728347080000002" green="0.3631908875" blue="0.11401384270000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 </state>
+                                                <connections>
+                                                    <segue destination="Ngh-2B-G3O" kind="show" id="DWw-zv-0Qv"/>
+                                                </connections>
                                             </button>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Y8O-Bf-Trw">
                                                 <rect key="frame" x="44" y="393" width="327" height="398.5"/>
@@ -517,6 +520,9 @@ Salted butter optional for serving</string>
                                 <rect key="frame" x="20" y="47" width="41" height="47"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Back"/>
+                                <connections>
+                                    <segue destination="7IX-a6-ljg" kind="show" id="NT3-K7-t6M"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemGray5Color" red="0.8980392157" green="0.8980392157" blue="0.91764705879999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -873,13 +879,14 @@ Salted butter optional for serving</string>
                                     <segue destination="usu-qS-TDu" kind="show" id="1aU-e0-beb"/>
                                 </connections>
                             </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Click to open Lea Michele playlist in Apple Music" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="KWx-gh-D9R">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Click to open Lea Michele playlist in Apple Music" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="KWx-gh-D9R">
                                 <rect key="frame" x="54" y="145" width="306" height="67"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemGray5Color" red="0.8980392157" green="0.8980392157" blue="0.91764705879999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="textColor" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" link="YES"/>
                             </textView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemGray5Color" red="0.8980392157" green="0.8980392157" blue="0.91764705879999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1127,10 +1134,10 @@ Salted butter optional for serving</string>
             </objects>
             <point key="canvasLocation" x="892.75362318840587" y="-1095.5357142857142"/>
         </scene>
-        <!--View Controller-->
+        <!--Gaga Playlist View Controller-->
         <scene sceneID="DIe-sh-gRA">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="lmZ-0B-pvx" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="lmZ-0B-pvx" customClass="GagaPlaylistViewController" customModule="FinalProject2020" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="UIV-3g-F5h">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1151,8 +1158,8 @@ Salted butter optional for serving</string>
                                     <segue destination="Dsp-zE-XKC" kind="show" id="5gE-vS-8Tv"/>
                                 </connections>
                             </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Click to open Lady Gaga playlist in Apple Music" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="3Bs-71-rad">
-                                <rect key="frame" x="38" y="167" width="333" height="128"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Click to open Lady Gaga playlist in Apple Music" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="3Bs-71-rad">
+                                <rect key="frame" x="38" y="167" width="333" height="72"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemGray5Color" red="0.8980392157" green="0.8980392157" blue="0.91764705879999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="textColor" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1165,6 +1172,9 @@ Salted butter optional for serving</string>
                         <viewLayoutGuide key="safeArea" id="QGB-BY-2Bo"/>
                     </view>
                     <navigationItem key="navigationItem" id="Yi4-C4-IQr"/>
+                    <connections>
+                        <outlet property="gagaLink" destination="3Bs-71-rad" id="8fC-hR-uLT"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6ns-lx-Dao" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1584,6 +1594,7 @@ Salted butter optional for serving</string>
         <segue reference="5gE-vS-8Tv"/>
         <segue reference="1aU-e0-beb"/>
         <segue reference="2rC-Fv-JhV"/>
+        <segue reference="NT3-K7-t6M"/>
         <segue reference="BWl-Da-szw"/>
         <segue reference="7VQ-FJ-3Xt"/>
         <segue reference="nT7-er-Ox2"/>
