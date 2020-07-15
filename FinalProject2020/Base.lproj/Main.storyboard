@@ -79,16 +79,25 @@
                                 <rect key="frame" x="154" y="307" width="114" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Washington D.C."/>
+                                <connections>
+                                    <segue destination="CRS-3T-dCV" kind="show" id="Opk-jW-XMu"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DJ4-ax-ovb">
                                 <rect key="frame" x="153" y="406" width="110" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Philadelphia, PA"/>
+                                <connections>
+                                    <segue destination="RLh-Z6-E5Y" kind="show" id="Jik-X1-5Kr"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fqG-jo-Tux">
                                 <rect key="frame" x="145" y="505" width="125" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="New York CIty, NY"/>
+                                <connections>
+                                    <segue destination="kSY-yx-DfG" kind="show" id="BXb-8M-rHe"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Local Community!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0kC-wX-AWs">
                                 <rect key="frame" x="55" y="114" width="304" height="36"/>
@@ -108,6 +117,9 @@
                                 <rect key="frame" x="168" y="602" width="79" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Newark, NJ"/>
+                                <connections>
+                                    <segue destination="IXR-uW-QEm" kind="show" id="RVx-4F-3Vi"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.80583887180000002" green="0.90592372060000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -124,7 +136,7 @@
             <objects>
                 <viewController id="CRS-3T-dCV" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="sTj-QF-uXr">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Washington D.C. " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bYM-Xd-GGx">
@@ -138,9 +150,9 @@
                                 <rect key="frame" x="44" y="183" width="327" height="414"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="0.98411681920000005" blue="0.87257982239999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <mutableString key="text">Food Pantries near you:                                                                                 - Capital Area Foodbank           
+                                <string key="text">Food Pantries near you:                                                                                 - Capital Area Foodbank           
 (202) 644-9800                                        -  Capital Area Food Bank - Washington                           
-(202) 644-9800                                     - So Others May Eat                           (202) 797-8806                                           - Thrive D.C.                                              202-737-9311                     -Washington City Church of the Brethren Nutrition Program                                     (202) 547-5924</mutableString>
+(202) 644-9800                                     - So Others May Eat                           (202) 797-8806                                           - Thrive D.C.                                              202-737-9311                     -Washington City Church of the Brethren Nutrition Program                                     (202) 547-5924</string>
                                 <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="21"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -158,6 +170,7 @@
                         <color key="backgroundColor" red="1" green="0.98411681920000005" blue="0.87257982239999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="ugQ-Y3-1LD"/>
                     </view>
+                    <navigationItem key="navigationItem" id="U3K-wE-1J7"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Dac-dj-gOB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -168,7 +181,7 @@
             <objects>
                 <viewController id="IXR-uW-QEm" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="xyE-RH-yig">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Newark" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fmn-6A-NSf">
@@ -191,9 +204,9 @@
                                 <rect key="frame" x="44" y="203" width="327" height="354"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="0.98411681920000005" blue="0.87257982239999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <mutableString key="text">Food Pantries near you:                                                                                 - St Michael's Parish - Food Pantry           
+                                <string key="text">Food Pantries near you:                                                                                 - St Michael's Parish - Food Pantry           
 (973) 484-7100                                  -  North Reformed Church                           
-(973) 623-3198                                     - The Apostle's House                      (973) 482-6609                                        - The Salvation Army - Newark (Central)                                        (973) 623-5959                                   - St Bridget Support Center                                  (973) 643-0736</mutableString>
+(973) 623-3198                                     - The Apostle's House                      (973) 482-6609                                        - The Salvation Army - Newark (Central)                                        (973) 623-5959                                   - St Bridget Support Center                                  (973) 643-0736</string>
                                 <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -202,6 +215,7 @@
                         <color key="backgroundColor" red="1" green="0.98411681920000005" blue="0.87257982239999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="wtv-LU-b1Q"/>
                     </view>
+                    <navigationItem key="navigationItem" id="XtZ-Uz-hDd"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jb6-PY-NqT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -212,7 +226,7 @@
             <objects>
                 <viewController id="RLh-Z6-E5Y" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="EdH-Yu-anU">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Philadelphia " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gll-ti-XCn">
@@ -226,8 +240,8 @@
                                 <rect key="frame" x="54" y="237" width="327" height="354"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="0.98411681920000005" blue="0.87257982239999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <mutableString key="text">Food Pantries near you:                                                                                 - Philabundance Berks Street                (215) 339-0900                                     -  Mission of Love Deliverance Church                      
-(215) 463-4123                                       - Philabundance                               (215) 339-0900                                    - Pennypack Farm Education Center for Sustainable Food Systems                 (215) 646-3943                                         - Burlington Township Food Pantry                                  888-847-3278</mutableString>
+                                <string key="text">Food Pantries near you:                                                                                 - Philabundance Berks Street                (215) 339-0900                                     -  Mission of Love Deliverance Church                      
+(215) 463-4123                                       - Philabundance                               (215) 339-0900                                    - Pennypack Farm Education Center for Sustainable Food Systems                 (215) 646-3943                                         - Burlington Township Food Pantry                                  888-847-3278</string>
                                 <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -236,7 +250,7 @@
                                 <rect key="frame" x="44" y="599" width="327" height="178"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="0.98411681920000005" blue="0.87257982239999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <mutableString key="text">Where to donate money! 💵                              - Philabundance                              - Feeding America                                - Feed The Children                              - World Food Program USA                     - Some food banks will also accept money donations </mutableString>
+                                <string key="text">Where to donate money! 💵                              - Philabundance                              - Feeding America                                - Feed The Children                              - World Food Program USA                     - Some food banks will also accept money donations </string>
                                 <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="19"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -245,6 +259,7 @@
                         <color key="backgroundColor" red="1" green="0.98411681920000005" blue="0.87257982239999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="zoj-yK-A1d"/>
                     </view>
+                    <navigationItem key="navigationItem" id="61t-Sf-qTQ"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6qD-o7-mPt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -255,7 +270,7 @@
             <objects>
                 <viewController id="kSY-yx-DfG" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="h7x-DT-iUa">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="New York City" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zVN-P1-2QD">
@@ -269,8 +284,8 @@
                                 <rect key="frame" x="44" y="213" width="327" height="354"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="0.98411681920000005" blue="0.87257982239999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <mutableString key="text">Food Pantries near you:                                                                                 - Bethel AME Church                        718-474-7712                                       -  Betel of America Inc.                      
-718-545-1486                                       - Abraham House Inc.                               646-431-7337                                      - New Spirit II, Inc.                           718-291-4844                                         - Solid Rock SDA Church                                 718-327-3205                                        - Calvary Free Will Baptist Church         718-485-4923</mutableString>
+                                <string key="text">Food Pantries near you:                                                                                 - Bethel AME Church                        718-474-7712                                       -  Betel of America Inc.                      
+718-545-1486                                       - Abraham House Inc.                               646-431-7337                                      - New Spirit II, Inc.                           718-291-4844                                         - Solid Rock SDA Church                                 718-327-3205                                        - Calvary Free Will Baptist Church         718-485-4923</string>
                                 <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -279,7 +294,7 @@
                                 <rect key="frame" x="44" y="592" width="327" height="215.5"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="0.98411681920000005" blue="0.87257982239999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <mutableString key="text">Where to donate money! 💵                              - Food Bank For New York City        - Feeding America                                - Feed The Children                              - World Food Program USA                     - Some food banks will also accept money donations </mutableString>
+                                <string key="text">Where to donate money! 💵                              - Food Bank For New York City        - Feeding America                                - Feed The Children                              - World Food Program USA                     - Some food banks will also accept money donations </string>
                                 <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="19"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -288,6 +303,7 @@
                         <color key="backgroundColor" red="1" green="0.98411681920000005" blue="0.87257982239999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="PoA-C2-l1p"/>
                     </view>
+                    <navigationItem key="navigationItem" id="FmV-LQ-2Ad"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Wjl-H7-Mk7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -424,6 +440,10 @@
                                                 <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="t swift " translatesAutoresizingMaskIntoConstraints="NO" id="dF8-yi-G54">
+                                                <rect key="frame" x="50" y="99" width="315" height="301"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
                                         </subviews>
                                         <color key="backgroundColor" red="0.058084551617654148" green="0.24498568307364479" blue="0.64888277202072531" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
@@ -704,5 +724,6 @@
     </scenes>
     <resources>
         <image name="Image from iOS" width="964" height="1022"/>
+        <image name="t swift " width="808" height="606"/>
     </resources>
 </document>
