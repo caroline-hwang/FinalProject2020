@@ -368,7 +368,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="Chrissy Teigen&quot;s Banana Bread"/>
                                 <connections>
-                                    <segue destination="WoW-nc-mul" kind="show" id="BCz-Lw-6Ww"/>
+                                    <segue destination="7IX-a6-ljg" kind="show" id="jA6-6K-5Rq"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Dessert" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wp2-cs-uTN">
@@ -406,61 +406,48 @@
             <point key="canvasLocation" x="1650.7246376811595" y="-291.29464285714283"/>
         </scene>
         <!--View Controller-->
-        <scene sceneID="tRi-DK-ORj">
+        <scene sceneID="b3N-GS-hyL">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="WoW-nc-mul" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="nPe-89-aNn">
+                <viewController modalPresentationStyle="fullScreen" id="7IX-a6-ljg" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="nsg-ay-kZu">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5pP-Tj-KYj">
-                                <rect key="frame" x="0.0" y="44" width="414" height="852"/>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="alc-3Y-gIh">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Far-TN-d32">
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="y2w-56-JBV">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="2000"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Chrissy Teigen's Banana Bread " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8ny-LT-7ah">
-                                                <rect key="frame" x="21" y="68" width="372" height="52"/>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BFv-WT-rNd">
+                                                <rect key="frame" x="24" y="27" width="41" height="94"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Back"/>
+                                                <connections>
+                                                    <segue destination="aLp-KK-DT1" kind="show" id="BWl-Da-szw"/>
+                                                </connections>
+                                            </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Chrissy Teigen's Banana Bread " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mbc-Kr-bmV">
+                                                <rect key="frame" x="21" y="107" width="372" height="52"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="25"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qL2-3T-xqF">
-                                                <rect key="frame" x="100" y="128" width="223" height="42"/>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tmp_JXzFVQ_f448748308db9482_IMG_1118" translatesAutoresizingMaskIntoConstraints="NO" id="Y7s-2J-xhJ">
+                                                <rect key="frame" x="87" y="167" width="240" height="128"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gcJ-Og-F1Y">
+                                                <rect key="frame" x="96" y="320" width="223" height="42"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                                 <state key="normal" title="Click here for playlist">
                                                     <color key="titleColor" red="0.74728347080000002" green="0.3631908875" blue="0.11401384270000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 </state>
                                             </button>
-                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6ac-Aj-aNQ">
-                                                <rect key="frame" x="44" y="881" width="335" height="1352"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <string key="text">Directions:                                         1. Preheat the oven to 325°F.
-2. In a large bowl, mix the mashed bananas, eggs, and oil and set aside.
-3. In another bowl, mix together the flour, baking soda, salt, sugar, and pudding mix. Mix the dry ingredients into the bowl of wet ingredients, but avoid using a mixer. Do this part manually to keep the end result nice and fluffy.
-4. Chop up the dark chocolate bar. Add that and the shredded coconut to the batter.
-5. Grease the pan (this means rubbing lots of butter all over it) and coat the butter in a layer of flour. Flip the pan upside down to shake out the excess flour.
-6. Bake until the cake bounces back when pressed or if a toothpick comes out clean when poked in. Depending on the pan, your baking time will vary. With a bundt pan, estimate around 60 to 80 minutes, depending on how deep it is. Let it cool for about 10 minutes and flip it onto a clean plate or tray for serving.
-7. Enjoy it warm with butter or a scoop of ice cream! Keep it either refrigerated or left out in an airtight container.</string>
-                                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="17"/>
-                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                            </textView>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jwb-wd-rRg">
-                                                <rect key="frame" x="21" y="8" width="41" height="47"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <state key="normal" title="Back">
-                                                    <color key="titleColor" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                </state>
-                                            </button>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tmp_JXzFVQ_f448748308db9482_IMG_1118" translatesAutoresizingMaskIntoConstraints="NO" id="ugE-H7-9q6">
-                                                <rect key="frame" x="66" y="189" width="291" height="193"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            </imageView>
-                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Hu2-F1-kjv">
-                                                <rect key="frame" x="44" y="418" width="327" height="398.5"/>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Y8O-Bf-Trw">
+                                                <rect key="frame" x="44" y="393" width="327" height="398.5"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <string key="text">Ingredients:                                      2 cups mashed bananas (about 5-6 bananas)
 2/3 cups canola oil
@@ -478,31 +465,37 @@ Salted butter optional for serving</string>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
                                         </subviews>
-                                        <color key="backgroundColor" red="1" green="0.84680338970000002" blue="0.67906959769999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="backgroundColor" red="1" green="0.92295743029999999" blue="0.82588669270000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="2000" id="DIo-Xc-oFr"/>
+                                            <constraint firstAttribute="height" constant="2000" id="Qd5-hu-nz2"/>
                                         </constraints>
                                     </view>
                                 </subviews>
-                                <viewLayoutGuide key="contentLayoutGuide" id="iwf-aa-jTE"/>
-                                <viewLayoutGuide key="frameLayoutGuide" id="rR1-As-Con"/>
+                                <constraints>
+                                    <constraint firstItem="y2w-56-JBV" firstAttribute="bottom" secondItem="CIG-Vl-B8U" secondAttribute="bottom" id="7vn-Yl-Luw"/>
+                                    <constraint firstItem="y2w-56-JBV" firstAttribute="leading" secondItem="CIG-Vl-B8U" secondAttribute="leading" id="HtI-cL-u99"/>
+                                    <constraint firstItem="y2w-56-JBV" firstAttribute="top" secondItem="CIG-Vl-B8U" secondAttribute="top" id="TR6-Ik-ZXp"/>
+                                    <constraint firstItem="y2w-56-JBV" firstAttribute="trailing" secondItem="CIG-Vl-B8U" secondAttribute="trailing" id="rHd-Xe-HDa"/>
+                                    <constraint firstItem="y2w-56-JBV" firstAttribute="width" secondItem="oki-wT-r7j" secondAttribute="width" id="yFA-CJ-uvP"/>
+                                </constraints>
+                                <viewLayoutGuide key="contentLayoutGuide" id="CIG-Vl-B8U"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="oki-wT-r7j"/>
                             </scrollView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="5pP-Tj-KYj" firstAttribute="top" secondItem="pZD-hG-nxE" secondAttribute="top" id="B0Y-fj-0x2"/>
-                            <constraint firstAttribute="bottom" secondItem="5pP-Tj-KYj" secondAttribute="bottom" id="N9I-j7-MVe"/>
-                            <constraint firstItem="5pP-Tj-KYj" firstAttribute="trailing" secondItem="pZD-hG-nxE" secondAttribute="trailing" id="XW2-dE-1cb"/>
-                            <constraint firstItem="5pP-Tj-KYj" firstAttribute="leading" secondItem="pZD-hG-nxE" secondAttribute="leading" id="vsx-gv-Usg"/>
+                            <constraint firstAttribute="bottom" secondItem="alc-3Y-gIh" secondAttribute="bottom" id="0kc-TG-Uq4"/>
+                            <constraint firstItem="alc-3Y-gIh" firstAttribute="leading" secondItem="MGk-Nl-SIM" secondAttribute="leading" id="Lc3-px-GuV"/>
+                            <constraint firstItem="alc-3Y-gIh" firstAttribute="top" secondItem="nsg-ay-kZu" secondAttribute="top" id="Mpt-Pr-M4M"/>
+                            <constraint firstItem="alc-3Y-gIh" firstAttribute="trailing" secondItem="MGk-Nl-SIM" secondAttribute="trailing" id="Yem-f7-U8o"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="pZD-hG-nxE"/>
+                        <viewLayoutGuide key="safeArea" id="MGk-Nl-SIM"/>
                     </view>
-                    <navigationItem key="navigationItem" id="5Un-MI-15z"/>
+                    <navigationItem key="navigationItem" id="y46-tc-XhI"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="8aH-zR-6gb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pJF-9T-3Zb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2534.7826086956525" y="-915.40178571428567"/>
+            <point key="canvasLocation" x="2492.753623188406" y="-904.01785714285711"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="uFl-cG-p2F">
@@ -524,9 +517,6 @@ Salted butter optional for serving</string>
                                 <rect key="frame" x="20" y="47" width="41" height="47"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Back"/>
-                                <connections>
-                                    <segue destination="WoW-nc-mul" kind="show" id="gjE-0G-8AL"/>
-                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemGray5Color" red="0.8980392157" green="0.8980392157" blue="0.91764705879999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1569,15 +1559,12 @@ Salted butter optional for serving</string>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="IgT-VW-Qkg"/>
-        <segue reference="wBP-hE-xvl"/>
-        <segue reference="F74-p0-VsS"/>
+        <segue reference="2Zp-KH-lzr"/>
         <segue reference="DYw-fg-BcL"/>
         <segue reference="5gE-vS-8Tv"/>
         <segue reference="1aU-e0-beb"/>
         <segue reference="2rC-Fv-JhV"/>
-        <segue reference="gjE-0G-8AL"/>
-        <segue reference="e7H-pF-yba"/>
+        <segue reference="BWl-Da-szw"/>
         <segue reference="JAZ-OR-tIM"/>
         <segue reference="nT7-er-Ox2"/>
     </inferredMetricsTieBreakers>
