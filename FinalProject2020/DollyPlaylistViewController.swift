@@ -23,9 +23,12 @@ class DollyPlaylistViewController: UIViewController {
     func updateTextView(){
         let path = "https://music.apple.com/us/playlist/cooking-with-the-stars-dolly-parton/pl.u-DdANN8NtLzb0rG"
         let text = dollyLink.text ?? ""
-        let attributedString = NSAttributedString.makeHyperlink(for: path, in: text, as: "here")
+        let attributedString = NSAttributedString.makeHyperlink(for: path, in: text, as: "Click to open Dolly Parton playlist in Apple Music")
         let font = dollyLink.font
+        let textColor = dollyLink.textColor
         dollyLink.attributedText = attributedString
+        dollyLink.font = font
+        dollyLink.textColor = textColor
         
     }
 
