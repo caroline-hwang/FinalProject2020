@@ -1133,10 +1133,10 @@
             </objects>
             <point key="canvasLocation" x="884.05797101449286" y="-1782.5892857142856"/>
         </scene>
-        <!--View Controller-->
+        <!--Dolly Playlist View Controller-->
         <scene sceneID="9Y9-51-56d">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="JTA-rr-2XT" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="JTA-rr-2XT" customClass="DollyPlaylistViewController" customModule="FinalProject2020" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Gdz-N8-qFq">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1157,11 +1157,23 @@
                                     <segue destination="8HY-Lu-SGo" kind="show" id="DYw-fg-BcL"/>
                                 </connections>
                             </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Click to open Dolly Parton playlist in Apple Music" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Z22-5p-orf">
+                                <rect key="frame" x="44" y="144" width="327" height="61"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemGray5Color" red="0.8980392157" green="0.8980392157" blue="0.91764705879999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" link="YES"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemGray5Color" red="0.8980392157" green="0.8980392157" blue="0.91764705879999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="euY-lC-vZe"/>
                     </view>
                     <navigationItem key="navigationItem" id="R4g-kF-4MA"/>
+                    <connections>
+                        <outlet property="dollyLink" destination="Z22-5p-orf" id="XSD-va-lbU"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8CH-yo-Jlr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1526,7 +1538,6 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="wBP-hE-xvl"/>
         <segue reference="uIn-fQ-2AU"/>
         <segue reference="DYw-fg-BcL"/>
         <segue reference="5gE-vS-8Tv"/>
