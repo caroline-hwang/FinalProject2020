@@ -448,13 +448,13 @@
         <!--View Controller-->
         <scene sceneID="Ryv-cL-JYg">
             <objects>
-                <viewController id="x5g-2N-tk6" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="x5g-2N-tk6" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="DON-5G-Xhm">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QHX-so-UWA">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                                <rect key="frame" x="0.0" y="44" width="414" height="852"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KUI-uG-Sc8">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="2000"/>
@@ -743,7 +743,7 @@
         <!--View Controller-->
         <scene sceneID="CNc-Xx-J2v">
             <objects>
-                <viewController id="iEi-Ym-sSR" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="iEi-Ym-sSR" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="e1I-nA-bHB">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
