@@ -849,10 +849,10 @@ Salted butter optional for serving</string>
             </objects>
             <point key="canvasLocation" x="3292" y="118"/>
         </scene>
-        <!--View Controller-->
+        <!--Lea Playlist View Controller-->
         <scene sceneID="CNc-Xx-J2v">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="iEi-Ym-sSR" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="iEi-Ym-sSR" customClass="LeaPlaylistViewController" customModule="FinalProject2020" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="e1I-nA-bHB">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -873,15 +873,26 @@ Salted butter optional for serving</string>
                                     <segue destination="usu-qS-TDu" kind="show" id="1aU-e0-beb"/>
                                 </connections>
                             </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Click to open Lea Michele playlist in Apple Music" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="KWx-gh-D9R">
+                                <rect key="frame" x="54" y="145" width="306" height="67"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemGray5Color" red="0.8980392157" green="0.8980392157" blue="0.91764705879999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemGray5Color" red="0.8980392157" green="0.8980392157" blue="0.91764705879999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="tZz-KR-2d3"/>
                     </view>
                     <navigationItem key="navigationItem" id="QKp-oZ-C0f"/>
+                    <connections>
+                        <outlet property="leaLink" destination="KWx-gh-D9R" id="17Q-ml-SKt"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1xU-GP-GMo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="36" y="-1798"/>
+            <point key="canvasLocation" x="34.782608695652179" y="-1798.6607142857142"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="URO-Xh-fPa">
@@ -1140,6 +1151,15 @@ Salted butter optional for serving</string>
                                     <segue destination="Dsp-zE-XKC" kind="show" id="5gE-vS-8Tv"/>
                                 </connections>
                             </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Click to open Lady Gaga playlist in Apple Music" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="3Bs-71-rad">
+                                <rect key="frame" x="38" y="167" width="333" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemGray5Color" red="0.8980392157" green="0.8980392157" blue="0.91764705879999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" link="YES"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemGray5Color" red="0.8980392157" green="0.8980392157" blue="0.91764705879999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="QGB-BY-2Bo"/>
@@ -1174,6 +1194,10 @@ Salted butter optional for serving</string>
                                     <segue destination="8HY-Lu-SGo" kind="show" id="DYw-fg-BcL"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Unknown-10" translatesAutoresizingMaskIntoConstraints="NO" id="pF9-Xq-JPH">
+                                <rect key="frame" x="44" y="265" width="327" height="212"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Click to open Dolly Parton playlist in Apple Music" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Z22-5p-orf">
                                 <rect key="frame" x="44" y="144" width="327" height="61"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1183,10 +1207,6 @@ Salted butter optional for serving</string>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                 <dataDetectorType key="dataDetectorTypes" link="YES"/>
                             </textView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Unknown-10" translatesAutoresizingMaskIntoConstraints="NO" id="pF9-Xq-JPH">
-                                <rect key="frame" x="44" y="265" width="327" height="212"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemGray5Color" red="0.8980392157" green="0.8980392157" blue="0.91764705879999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="euY-lC-vZe"/>
@@ -1559,13 +1579,13 @@ Salted butter optional for serving</string>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="2Zp-KH-lzr"/>
+        <segue reference="4eX-gl-Ras"/>
         <segue reference="DYw-fg-BcL"/>
         <segue reference="5gE-vS-8Tv"/>
         <segue reference="1aU-e0-beb"/>
         <segue reference="2rC-Fv-JhV"/>
         <segue reference="BWl-Da-szw"/>
-        <segue reference="JAZ-OR-tIM"/>
+        <segue reference="7VQ-FJ-3Xt"/>
         <segue reference="nT7-er-Ox2"/>
     </inferredMetricsTieBreakers>
     <resources>
