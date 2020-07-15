@@ -413,51 +413,78 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5pP-Tj-KYj">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5pP-Tj-KYj">
                                 <rect key="frame" x="0.0" y="44" width="414" height="852"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dBt-3S-SJc">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="2000"/>
+                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Far-TN-d32">
+                                        <rect key="frame" x="8" y="-29" width="414" height="2000"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Chrissy Teigen's Banana Bread " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Eo-e8-8Un">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Chrissy Teigen's Banana Bread " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8ny-LT-7ah">
                                                 <rect key="frame" x="21" y="68" width="372" height="52"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="25"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mmk-e3-uuz">
-                                                <rect key="frame" x="96" y="128" width="223" height="42"/>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qL2-3T-xqF">
+                                                <rect key="frame" x="100" y="128" width="223" height="42"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                                <state key="normal" title="Click here for playlist"/>
-                                                <connections>
-                                                    <segue destination="Ngh-2B-G3O" kind="show" id="S2L-Gc-Fg9"/>
-                                                </connections>
+                                                <state key="normal" title="Click here for playlist">
+                                                    <color key="titleColor" red="0.74728347080000002" green="0.3631908875" blue="0.11401384270000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                </state>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3PQ-S2-fe1">
-                                                <rect key="frame" x="21" y="13" width="41" height="47"/>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6ac-Aj-aNQ">
+                                                <rect key="frame" x="44" y="881" width="335" height="1352"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <state key="normal" title="Back"/>
-                                                <connections>
-                                                    <segue destination="aLp-KK-DT1" kind="show" id="79p-OZ-WAf"/>
-                                                </connections>
+                                                <string key="text">Directions:                                         1. Preheat the oven to 325°F.
+2. In a large bowl, mix the mashed bananas, eggs, and oil and set aside.
+3. In another bowl, mix together the flour, baking soda, salt, sugar, and pudding mix. Mix the dry ingredients into the bowl of wet ingredients, but avoid using a mixer. Do this part manually to keep the end result nice and fluffy.
+4. Chop up the dark chocolate bar. Add that and the shredded coconut to the batter.
+5. Grease the pan (this means rubbing lots of butter all over it) and coat the butter in a layer of flour. Flip the pan upside down to shake out the excess flour.
+6. Bake until the cake bounces back when pressed or if a toothpick comes out clean when poked in. Depending on the pan, your baking time will vary. With a bundt pan, estimate around 60 to 80 minutes, depending on how deep it is. Let it cool for about 10 minutes and flip it onto a clean plate or tray for serving.
+7. Enjoy it warm with butter or a scoop of ice cream! Keep it either refrigerated or left out in an airtight container.</string>
+                                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="17"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jwb-wd-rRg">
+                                                <rect key="frame" x="21" y="8" width="41" height="47"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Back">
+                                                    <color key="titleColor" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
                                             </button>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tmp_JXzFVQ_f448748308db9482_IMG_1118" translatesAutoresizingMaskIntoConstraints="NO" id="ugE-H7-9q6">
+                                                <rect key="frame" x="66" y="189" width="291" height="193"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Hu2-F1-kjv">
+                                                <rect key="frame" x="44" y="418" width="327" height="398.5"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">Ingredients:                                      2 cups mashed bananas (about 5-6 bananas)
+2/3 cups canola oil
+4 eggs
+2 cups all-purpose flour (and extra to dust pan with)
+2 cups sugar
+1 box vanilla instant-pudding mix
+1 teaspoon baking soda
+1 1/2 teaspoons kosher salt
+1 cup unsweetened shredded coconut
+1 (3.5 oz) bar dark chocolate (chopped into chunks)
+Salted butter optional for serving</string>
+                                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="19"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
                                         </subviews>
-                                        <color key="backgroundColor" red="1" green="0.56150112543299646" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="backgroundColor" red="1" green="0.84680338970000002" blue="0.67906959769999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="2000" id="WM9-6N-oBe"/>
+                                            <constraint firstAttribute="height" constant="2000" id="DIo-Xc-oFr"/>
                                         </constraints>
                                     </view>
                                 </subviews>
-                                <constraints>
-                                    <constraint firstItem="dBt-3S-SJc" firstAttribute="bottom" secondItem="iwf-aa-jTE" secondAttribute="bottom" id="FEL-nU-KCx"/>
-                                    <constraint firstItem="dBt-3S-SJc" firstAttribute="trailing" secondItem="iwf-aa-jTE" secondAttribute="trailing" id="MES-O0-Y96"/>
-                                    <constraint firstItem="dBt-3S-SJc" firstAttribute="leading" secondItem="iwf-aa-jTE" secondAttribute="leading" id="OWy-Bp-Q94"/>
-                                    <constraint firstItem="dBt-3S-SJc" firstAttribute="top" secondItem="iwf-aa-jTE" secondAttribute="top" id="PZa-h9-r4Q"/>
-                                    <constraint firstItem="dBt-3S-SJc" firstAttribute="width" secondItem="rR1-As-Con" secondAttribute="width" id="cOt-AV-wyP"/>
-                                </constraints>
                                 <viewLayoutGuide key="contentLayoutGuide" id="iwf-aa-jTE"/>
                                 <viewLayoutGuide key="frameLayoutGuide" id="rR1-As-Con"/>
                             </scrollView>
@@ -1538,13 +1565,14 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="uIn-fQ-2AU"/>
+        <segue reference="Hq7-4C-oNW"/>
+        <segue reference="F74-p0-VsS"/>
         <segue reference="DYw-fg-BcL"/>
         <segue reference="5gE-vS-8Tv"/>
         <segue reference="1aU-e0-beb"/>
         <segue reference="2rC-Fv-JhV"/>
         <segue reference="gjE-0G-8AL"/>
-        <segue reference="79p-OZ-WAf"/>
+        <segue reference="K6b-mx-Qjr"/>
         <segue reference="JAZ-OR-tIM"/>
         <segue reference="nT7-er-Ox2"/>
     </inferredMetricsTieBreakers>
@@ -1557,5 +1585,6 @@
         <image name="sldkfjds-removebg-preview" width="300" height="364"/>
         <image name="t swift " width="808" height="606"/>
         <image name="t swift cookies" width="306" height="306"/>
+        <image name="tmp_JXzFVQ_f448748308db9482_IMG_1118" width="128" height="128"/>
     </resources>
 </document>
