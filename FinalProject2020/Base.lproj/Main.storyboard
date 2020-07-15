@@ -10,9 +10,9 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="FinalProject2020" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="BYZ-38-t0r" customClass="ViewController" customModule="FinalProject2020" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Cooking with the Stars" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="koe-Lh-VLC">
@@ -64,9 +64,9 @@
         <!--View Controller-->
         <scene sceneID="QQa-6y-ydI">
             <objects>
-                <viewController id="A22-0J-HgL" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="A22-0J-HgL" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Nal-O7-xkU">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1. Select your Location" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Slb-Mc-EeP">
@@ -147,9 +147,9 @@
         <!--View Controller-->
         <scene sceneID="SWP-0j-zXf">
             <objects>
-                <viewController id="CRS-3T-dCV" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="CRS-3T-dCV" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="sTj-QF-uXr">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Washington D.C. " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bYM-Xd-GGx">
@@ -179,6 +179,14 @@
                                 <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="19"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aza-2P-bwk">
+                                <rect key="frame" x="44" y="787" width="41" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Back"/>
+                                <connections>
+                                    <segue destination="A22-0J-HgL" kind="show" id="JAZ-OR-tIM"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.98411681920000005" blue="0.87257982239999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="ugQ-Y3-1LD"/>
@@ -192,9 +200,9 @@
         <!--View Controller-->
         <scene sceneID="4CD-DE-MCa">
             <objects>
-                <viewController id="IXR-uW-QEm" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="IXR-uW-QEm" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="xyE-RH-yig">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Newark" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fmn-6A-NSf">
@@ -224,6 +232,14 @@
                                 <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="19"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O6B-rV-9ii">
+                                <rect key="frame" x="44" y="762" width="34" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Back"/>
+                                <connections>
+                                    <segue destination="A22-0J-HgL" kind="show" id="nHD-bF-I8h"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.98411681920000005" blue="0.87257982239999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="wtv-LU-b1Q"/>
@@ -237,9 +253,9 @@
         <!--View Controller-->
         <scene sceneID="96w-3T-3eL">
             <objects>
-                <viewController id="RLh-Z6-E5Y" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="RLh-Z6-E5Y" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="EdH-Yu-anU">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Philadelphia " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gll-ti-XCn">
@@ -268,6 +284,14 @@
                                 <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="19"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3P6-6S-Nfg">
+                                <rect key="frame" x="44" y="771" width="34" height="13"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Back"/>
+                                <connections>
+                                    <segue destination="A22-0J-HgL" kind="show" id="syk-D3-eyO"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.98411681920000005" blue="0.87257982239999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="zoj-yK-A1d"/>
@@ -276,14 +300,14 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6qD-o7-mPt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="873.91304347826099" y="1088.8392857142856"/>
+            <point key="canvasLocation" x="873.91304347826099" y="1088.1696428571429"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="iEL-da-h7s">
             <objects>
-                <viewController id="kSY-yx-DfG" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="kSY-yx-DfG" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="h7x-DT-iUa">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="New York City" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zVN-P1-2QD">
@@ -312,6 +336,14 @@
                                 <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="19"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zho-wd-SXU">
+                                <rect key="frame" x="49" y="747" width="34" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Back"/>
+                                <connections>
+                                    <segue destination="A22-0J-HgL" kind="show" id="76n-sw-9DY"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.98411681920000005" blue="0.87257982239999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="PoA-C2-l1p"/>
@@ -325,9 +357,9 @@
         <!--View Controller-->
         <scene sceneID="lCB-ic-pt6">
             <objects>
-                <viewController id="aLp-KK-DT1" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="aLp-KK-DT1" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="tv0-C5-XQg">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Mj-tE-XBX">
@@ -355,6 +387,14 @@
                                     <segue destination="x5g-2N-tk6" kind="show" id="2rC-Fv-JhV"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nnF-m7-QZd">
+                                <rect key="frame" x="30" y="53" width="41" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Back"/>
+                                <connections>
+                                    <segue destination="uxS-mG-zbX" kind="show" id="2Zp-KH-lzr"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.97035829613885272" blue="0.80142098489352143" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="z9L-Am-iN0"/>
@@ -368,13 +408,13 @@
         <!--View Controller-->
         <scene sceneID="tRi-DK-ORj">
             <objects>
-                <viewController id="WoW-nc-mul" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="WoW-nc-mul" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="nPe-89-aNn">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5pP-Tj-KYj">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                                <rect key="frame" x="0.0" y="44" width="414" height="852"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dBt-3S-SJc">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="2000"/>
@@ -386,6 +426,23 @@
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mmk-e3-uuz">
+                                                <rect key="frame" x="96" y="128" width="223" height="42"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                                <state key="normal" title="Click here for playlist"/>
+                                                <connections>
+                                                    <segue destination="Ngh-2B-G3O" kind="show" id="S2L-Gc-Fg9"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3PQ-S2-fe1">
+                                                <rect key="frame" x="21" y="13" width="41" height="47"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Back"/>
+                                                <connections>
+                                                    <segue destination="aLp-KK-DT1" kind="show" id="79p-OZ-WAf"/>
+                                                </connections>
+                                            </button>
                                         </subviews>
                                         <color key="backgroundColor" red="1" green="0.56150112543299646" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -423,7 +480,7 @@
         <!--View Controller-->
         <scene sceneID="uFl-cG-p2F">
             <objects>
-                <viewController id="Ngh-2B-G3O" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="Ngh-2B-G3O" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="iSK-LO-Ixz">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -436,10 +493,19 @@
                                 <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="24"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4zC-HO-JfO">
+                                <rect key="frame" x="20" y="47" width="41" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Back"/>
+                                <connections>
+                                    <segue destination="WoW-nc-mul" kind="show" id="gjE-0G-8AL"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemGray5Color" red="0.8980392157" green="0.8980392157" blue="0.91764705879999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="4K2-67-Np4"/>
                     </view>
+                    <navigationItem key="navigationItem" id="Bhw-r0-CQf"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ziM-mr-kcB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -679,9 +745,26 @@
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="t swift cookies" translatesAutoresizingMaskIntoConstraints="NO" id="dF8-yi-G54">
-                                                <rect key="frame" x="53" y="118" width="307" height="270"/>
+                                                <rect key="frame" x="62" y="170" width="291" height="230"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="euC-rH-3cH">
+                                                <rect key="frame" x="96" y="118" width="223" height="42"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                                <state key="normal" title="Click here for playlist"/>
+                                                <connections>
+                                                    <segue destination="Yia-Z4-obO" kind="show" id="PHR-De-CQy"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lmk-vy-Ol0">
+                                                <rect key="frame" x="23" y="8" width="41" height="47"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Back"/>
+                                                <connections>
+                                                    <segue destination="aLp-KK-DT1" kind="show" id="e7H-pF-yba"/>
+                                                </connections>
+                                            </button>
                                         </subviews>
                                         <color key="backgroundColor" red="0.058084551617654148" green="0.24498568307364479" blue="0.64888277202072531" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
@@ -718,7 +801,7 @@
         <!--View Controller-->
         <scene sceneID="GEp-DM-MSc">
             <objects>
-                <viewController id="Yia-Z4-obO" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="Yia-Z4-obO" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="uVW-JK-IEo">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -731,10 +814,19 @@
                                 <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="24"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fml-bb-oQA">
+                                <rect key="frame" x="23" y="66" width="41" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Back"/>
+                                <connections>
+                                    <segue destination="x5g-2N-tk6" kind="show" id="5KC-Me-wFR"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemGray5Color" red="0.8980392157" green="0.8980392157" blue="0.91764705879999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="MKh-oS-9eS"/>
                     </view>
+                    <navigationItem key="navigationItem" id="GdX-cK-OqB"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pD5-My-tin" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -756,10 +848,19 @@
                                 <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="24"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ivt-Zu-t7Z">
+                                <rect key="frame" x="23" y="49" width="41" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Back"/>
+                                <connections>
+                                    <segue destination="usu-qS-TDu" kind="show" id="1aU-e0-beb"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemGray5Color" red="0.8980392157" green="0.8980392157" blue="0.91764705879999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="tZz-KR-2d3"/>
                     </view>
+                    <navigationItem key="navigationItem" id="QKp-oZ-C0f"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1xU-GP-GMo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -768,13 +869,13 @@
         <!--View Controller-->
         <scene sceneID="URO-Xh-fPa">
             <objects>
-                <viewController id="usu-qS-TDu" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="usu-qS-TDu" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="mo8-9I-h25">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lZC-xa-Kd7">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                                <rect key="frame" x="0.0" y="44" width="414" height="852"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Spk-ii-dFv">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="2000"/>
@@ -844,6 +945,17 @@
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                                 <state key="normal" title="Click here for playlist"/>
+                                                <connections>
+                                                    <segue destination="iEi-Ym-sSR" kind="show" id="IgT-VW-Qkg"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zlh-kv-R9v">
+                                                <rect key="frame" x="8" y="8" width="41" height="47"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Back"/>
+                                                <connections>
+                                                    <segue destination="uxS-mG-zbX" kind="show" id="zGD-4V-hGh"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" red="1" green="0.84534511935501189" blue="0.68100944077648728" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -881,13 +993,13 @@
         <!--View Controller-->
         <scene sceneID="xPf-u9-r0V">
             <objects>
-                <viewController id="Dsp-zE-XKC" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="Dsp-zE-XKC" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="I5p-ij-Tkr">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dRf-Vq-fEp">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                                <rect key="frame" x="0.0" y="44" width="414" height="852"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rQq-G0-i8E">
                                         <rect key="frame" x="-8" y="0.0" width="414" height="2000"/>
@@ -907,7 +1019,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="u6E-79-Pq1">
-                                                <rect key="frame" x="44" y="807" width="327" height="451"/>
+                                                <rect key="frame" x="44" y="895" width="327" height="451"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" red="0.82118403809999996" green="0.94895641610000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <string key="text">Directions:                                                 - In a large saucepan, heat olive oil over medium-high heat.                                 - Add celery, garlic, and fennel. Cook the vegetables for about 10 minutes, </string>
@@ -916,7 +1028,7 @@
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="cmz-to-SR6">
-                                                <rect key="frame" x="44" y="933" width="327" height="451"/>
+                                                <rect key="frame" x="44" y="1022" width="327" height="451"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" red="0.82118403809999996" green="0.94895641610000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <string key="text">until they are tender.                                 - Add the diced tomatoes and chicken broth.                                                  - Simmer for 4 minutes.                                - Remove from heat.                                - Add basil and parsley.                                - Let it cool slightly.                                 - Puree in the blender.                           - Season to taste and sevrve warm.         - Optional: Serve with some warm bread. </string>
@@ -925,7 +1037,7 @@
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Tvb-hA-nhS">
-                                                <rect key="frame" x="44" y="430" width="327" height="347.5"/>
+                                                <rect key="frame" x="44" y="511" width="327" height="347.5"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" red="0.82118403809999996" green="0.94895641610000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <string key="text">Germanotta Tomato Fennel Soup             Ingredients:                                                2 tbsp. olive oil                                        1/2 onion, chopped                                   1 clove garlic, minced                                      1 celery stalk, chopped                                         1 fennel bulb, chopped                            1 can diced tomatoes (14.5 oz)                1 cup low sodium chicken broth               2 tbsp. chopped fresh basil                       2 tbsp. chopped parsley                             Salt and black pepper to taste                 Optional: Bread </string>
@@ -934,9 +1046,26 @@
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="d3f132fc73a39c5d3a8bcb4efaf15c69--tomato-soups-lady-gaga" translatesAutoresizingMaskIntoConstraints="NO" id="O9g-ho-BLh">
-                                                <rect key="frame" x="42" y="128" width="329" height="294"/>
+                                                <rect key="frame" x="42" y="209" width="329" height="294"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rfh-uY-zxl">
+                                                <rect key="frame" x="95" y="144" width="223" height="42"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                                <state key="normal" title="Click here for playlist"/>
+                                                <connections>
+                                                    <segue destination="lmZ-0B-pvx" kind="show" id="wBP-hE-xvl"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G9e-eD-7WA">
+                                                <rect key="frame" x="25" y="40" width="41" height="47"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Back"/>
+                                                <connections>
+                                                    <segue destination="uxS-mG-zbX" kind="show" id="uIn-fQ-2AU"/>
+                                                </connections>
+                                            </button>
                                         </subviews>
                                         <color key="backgroundColor" red="0.81314452124830428" green="0.94596354061107768" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
@@ -973,7 +1102,7 @@
         <!--View Controller-->
         <scene sceneID="DIe-sh-gRA">
             <objects>
-                <viewController id="lmZ-0B-pvx" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="lmZ-0B-pvx" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="UIV-3g-F5h">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -986,10 +1115,19 @@
                                 <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="24"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="abd-Xd-dLl">
+                                <rect key="frame" x="38" y="56" width="41" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Back"/>
+                                <connections>
+                                    <segue destination="Dsp-zE-XKC" kind="show" id="5gE-vS-8Tv"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemGray5Color" red="0.8980392157" green="0.8980392157" blue="0.91764705879999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="QGB-BY-2Bo"/>
                     </view>
+                    <navigationItem key="navigationItem" id="Yi4-C4-IQr"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6ns-lx-Dao" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -998,7 +1136,7 @@
         <!--View Controller-->
         <scene sceneID="9Y9-51-56d">
             <objects>
-                <viewController id="JTA-rr-2XT" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="JTA-rr-2XT" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Gdz-N8-qFq">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1011,10 +1149,19 @@
                                 <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="24"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UTF-Ym-H7d">
+                                <rect key="frame" x="20" y="44" width="41" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Back"/>
+                                <connections>
+                                    <segue destination="8HY-Lu-SGo" kind="show" id="DYw-fg-BcL"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemGray5Color" red="0.8980392157" green="0.8980392157" blue="0.91764705879999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="euY-lC-vZe"/>
                     </view>
+                    <navigationItem key="navigationItem" id="R4g-kF-4MA"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8CH-yo-Jlr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1023,13 +1170,13 @@
         <!--View Controller-->
         <scene sceneID="6FV-mc-jJ6">
             <objects>
-                <viewController id="8HY-Lu-SGo" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="8HY-Lu-SGo" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="zv8-R5-EqJ">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RQF-9Z-lqQ">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                                <rect key="frame" x="0.0" y="44" width="414" height="852"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Jg4-3Z-nE4">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="2000"/>
@@ -1049,10 +1196,6 @@
                                                 <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="24"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="dolly food" translatesAutoresizingMaskIntoConstraints="NO" id="pra-8e-qtF">
-                                                <rect key="frame" x="16" y="154" width="383" height="284"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            </imageView>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Ingredients" translatesAutoresizingMaskIntoConstraints="NO" id="Tg2-Sa-LLc">
                                                 <rect key="frame" x="16" y="446" width="154" height="41"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1257,6 +1400,27 @@
                                                 <rect key="frame" x="30" y="1759" width="355" height="222"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="dolly food" translatesAutoresizingMaskIntoConstraints="NO" id="pra-8e-qtF">
+                                                <rect key="frame" x="44" y="226" width="327" height="212"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Nw-p0-hkl">
+                                                <rect key="frame" x="96" y="158" width="223" height="42"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                                <state key="normal" title="Click here for playlist"/>
+                                                <connections>
+                                                    <segue destination="JTA-rr-2XT" kind="show" id="Hq7-4C-oNW"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7F8-8P-wgj">
+                                                <rect key="frame" x="21" y="8" width="41" height="47"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Back"/>
+                                                <connections>
+                                                    <segue destination="uxS-mG-zbX" kind="show" id="F74-p0-VsS"/>
+                                                </connections>
+                                            </button>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemGray2Color" red="0.68235294120000001" green="0.68235294120000001" blue="0.69803921570000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <color key="tintColor" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1294,9 +1458,9 @@
         <!--View Controller-->
         <scene sceneID="QHp-QJ-q0g">
             <objects>
-                <viewController id="uxS-mG-zbX" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="uxS-mG-zbX" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="m0d-SN-0LQ">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Aze-eD-SBl">
@@ -1362,7 +1526,16 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="SWK-3V-nbc"/>
+        <segue reference="wBP-hE-xvl"/>
+        <segue reference="uIn-fQ-2AU"/>
+        <segue reference="DYw-fg-BcL"/>
+        <segue reference="5gE-vS-8Tv"/>
+        <segue reference="1aU-e0-beb"/>
+        <segue reference="2rC-Fv-JhV"/>
+        <segue reference="gjE-0G-8AL"/>
+        <segue reference="79p-OZ-WAf"/>
+        <segue reference="JAZ-OR-tIM"/>
+        <segue reference="nT7-er-Ox2"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Image from iOS" width="964" height="1022"/>
