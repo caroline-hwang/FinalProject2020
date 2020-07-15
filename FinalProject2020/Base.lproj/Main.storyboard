@@ -500,10 +500,10 @@ Salted butter optional for serving</string>
             </objects>
             <point key="canvasLocation" x="2492.753623188406" y="-904.01785714285711"/>
         </scene>
-        <!--View Controller-->
+        <!--Chrissy Playlist View Controller-->
         <scene sceneID="uFl-cG-p2F">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="Ngh-2B-G3O" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="Ngh-2B-G3O" customClass="ChrissyPlaylistViewController" customModule="FinalProject2020" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="iSK-LO-Ixz">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -524,15 +524,27 @@ Salted butter optional for serving</string>
                                     <segue destination="7IX-a6-ljg" kind="show" id="NT3-K7-t6M"/>
                                 </connections>
                             </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Click to open Chrissy Teigen playlist in Apple Music" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="TSd-5P-38z">
+                                <rect key="frame" x="54" y="162" width="317" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemGray5Color" red="0.8980392157" green="0.8980392157" blue="0.91764705879999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" link="YES"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemGray5Color" red="0.8980392157" green="0.8980392157" blue="0.91764705879999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="4K2-67-Np4"/>
                     </view>
                     <navigationItem key="navigationItem" id="Bhw-r0-CQf"/>
+                    <connections>
+                        <outlet property="chrissyLink" destination="TSd-5P-38z" id="wUw-VB-hrU"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ziM-mr-kcB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3270" y="-900"/>
+            <point key="canvasLocation" x="3269.5652173913045" y="-900"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Ryv-cL-JYg">
@@ -821,10 +833,10 @@ Salted butter optional for serving</string>
             </objects>
             <point key="canvasLocation" x="2534.7826086956525" y="113.83928571428571"/>
         </scene>
-        <!--View Controller-->
+        <!--Taylor Playlist View Controller-->
         <scene sceneID="GEp-DM-MSc">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="Yia-Z4-obO" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="Yia-Z4-obO" customClass="TaylorPlaylistViewController" customModule="FinalProject2020" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="uVW-JK-IEo">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -845,15 +857,27 @@ Salted butter optional for serving</string>
                                     <segue destination="x5g-2N-tk6" kind="show" id="5KC-Me-wFR"/>
                                 </connections>
                             </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Click to open Taylor Swift playlist in Apple Music" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="WfJ-yQ-wGc">
+                                <rect key="frame" x="54" y="161" width="307" height="76"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemGray5Color" red="0.8980392157" green="0.8980392157" blue="0.91764705879999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" link="YES"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemGray5Color" red="0.8980392157" green="0.8980392157" blue="0.91764705879999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="MKh-oS-9eS"/>
                     </view>
                     <navigationItem key="navigationItem" id="GdX-cK-OqB"/>
+                    <connections>
+                        <outlet property="taylorLink" destination="WfJ-yQ-wGc" id="d3B-ar-IfD"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pD5-My-tin" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3292" y="118"/>
+            <point key="canvasLocation" x="3291.304347826087" y="117.85714285714285"/>
         </scene>
         <!--Lea Playlist View Controller-->
         <scene sceneID="CNc-Xx-J2v">
@@ -1593,7 +1617,7 @@ Salted butter optional for serving</string>
         <segue reference="DYw-fg-BcL"/>
         <segue reference="5gE-vS-8Tv"/>
         <segue reference="1aU-e0-beb"/>
-        <segue reference="2rC-Fv-JhV"/>
+        <segue reference="5KC-Me-wFR"/>
         <segue reference="NT3-K7-t6M"/>
         <segue reference="BWl-Da-szw"/>
         <segue reference="7VQ-FJ-3Xt"/>
