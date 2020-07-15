@@ -330,29 +330,31 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GsH-M4-hpN">
-                                <rect key="frame" x="58" y="205" width="299" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Taylor Swift's Chai Tea and Eggnog Cookies"/>
-                                <connections>
-                                    <segue destination="x5g-2N-tk6" kind="show" id="2rC-Fv-JhV"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Mj-tE-XBX">
-                                <rect key="frame" x="93" y="295" width="214" height="30"/>
+                                <rect key="frame" x="53" y="403" width="271" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="Chrissy Teigen&quot;s Banana Bread"/>
                                 <connections>
                                     <segue destination="WoW-nc-mul" kind="show" id="BCz-Lw-6Ww"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Dessert" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wp2-cs-uTN">
-                                <rect key="frame" x="156" y="63" width="103" height="52"/>
+                                <rect key="frame" x="156" y="139" width="103" height="52"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="25"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GsH-M4-hpN">
+                                <rect key="frame" x="15" y="277" width="379" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Taylor Swift's Chai Tea and Eggnog Cookies"/>
+                                <connections>
+                                    <segue destination="x5g-2N-tk6" kind="show" id="2rC-Fv-JhV"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.97035829613885272" blue="0.80142098489352143" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="z9L-Am-iN0"/>
@@ -612,20 +614,50 @@
                                         <rect key="frame" x="-8" y="0.0" width="414" height="2000"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Lunch" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gjp-KU-MKk">
-                                                <rect key="frame" x="155" y="80" width="104" height="36"/>
+                                                <rect key="frame" x="155" y="51" width="104" height="36"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="35"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Lady Gaga's Tomato Soup" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Tvb-hA-nhS">
-                                                <rect key="frame" x="44" y="148" width="327" height="417"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Lady Gaga's Tomato Soup" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PKe-ga-PlI">
+                                                <rect key="frame" x="55" y="95" width="305" height="25"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="25"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="u6E-79-Pq1">
+                                                <rect key="frame" x="44" y="807" width="327" height="451"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" red="0.82118403809999996" green="0.94895641610000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <string key="text">Directions:                                                 - In a large saucepan, heat olive oil over medium-high heat.                                 - Add celery, garlic, and fennel. Cook the vegetables for about 10 minutes, </string>
                                                 <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                                 <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="17"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="cmz-to-SR6">
+                                                <rect key="frame" x="44" y="933" width="327" height="451"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.82118403809999996" green="0.94895641610000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <string key="text">until they are tender.                                 - Add the diced tomatoes and chicken broth.                                                  - Simmer for 4 minutes.                                - Remove from heat.                                - Add basil and parsley.                                - Let it cool slightly.                                 - Puree in the blender.                           - Season to taste and sevrve warm.         - Optional: Serve with some warm bread. </string>
+                                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="17"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Tvb-hA-nhS">
+                                                <rect key="frame" x="44" y="430" width="327" height="347.5"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.82118403809999996" green="0.94895641610000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <mutableString key="text">Germanotta Tomato Fennel Soup             Ingredients:                                                2 tbsp. olive oil                                        1/2 onion, chopped                                   1 clove garlic, minced                                      1 celery stalk, chopped                                         1 fennel bulb, chopped                            1 can diced tomatoes (14.5 oz)                1 cup low sodium chicken broth               2 tbsp. chopped fresh basil                       2 tbsp. chopped parsley                             Salt and black pepper to taste                 Optional: Bread </mutableString>
+                                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="17"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="d3f132fc73a39c5d3a8bcb4efaf15c69--tomato-soups-lady-gaga" translatesAutoresizingMaskIntoConstraints="NO" id="O9g-ho-BLh">
+                                                <rect key="frame" x="42" y="128" width="329" height="294"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
                                         </subviews>
                                         <color key="backgroundColor" red="0.81314452124830428" green="0.94596354061107768" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
@@ -798,6 +830,7 @@
     <resources>
         <image name="Image from iOS" width="964" height="1022"/>
         <image name="Unknown-7" width="200" height="252"/>
+        <image name="d3f132fc73a39c5d3a8bcb4efaf15c69--tomato-soups-lady-gaga" width="474" height="663"/>
         <image name="t swift " width="808" height="606"/>
     </resources>
 </document>
