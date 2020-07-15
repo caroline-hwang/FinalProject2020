@@ -787,7 +787,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="zQj-L1-7Ln">
-                                                <rect key="frame" x="44" y="354" width="327" height="311"/>
+                                                <rect key="frame" x="47" y="454" width="327" height="311"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" red="1" green="0.84534511940000001" blue="0.68100944080000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <string key="text">Ingredients:                                      2 tablespoons olive oil
@@ -804,23 +804,23 @@
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="L6o-ml-kNN">
-                                                <rect key="frame" x="41" y="661" width="330" height="208"/>
+                                                <rect key="frame" x="42" y="759" width="330" height="208"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" red="1" green="0.84534511940000001" blue="0.68100944080000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <string key="text">Directions:                                          - Preheat the oven to 375°F.
 - In a heavy skillet, add olive oil and bring to medium-low heat.
-- Saute onions and peppers until vegetables are tender, about 7 minutes.
-- Sprinkle the mixture with salt and pepper.
+- Saute onions and peppers until 
 </string>
                                                 <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                                 <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="17"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="7Sa-C2-LqA">
-                                                <rect key="frame" x="41" y="865" width="327" height="326"/>
+                                                <rect key="frame" x="47" y="887" width="327" height="399"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" red="1" green="0.84534511940000001" blue="0.68100944080000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <string key="text">- Pour egg whites into the skillet and cook for 3 minutes.
+                                                <string key="text">vegetables are tender, about 7 minutes.
+- Sprinkle the mixture with salt and pepper.                                                - Pour egg whites into the skillet and cook for 3 minutes.
 - Sprinkle the top with feta and spinach.
 - Put skillet in oven and bake, uncovered, for 8 to 10 minutes. (If you use whole eggs instead of egg whites, bake at 400°F.)
 - Loosen the edges of the frittata with a rubber spatula, and then invert onto a plate.</string>
@@ -828,10 +828,6 @@
                                                 <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="17"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Unknown-7" translatesAutoresizingMaskIntoConstraints="NO" id="W51-T5-RGa">
-                                                <rect key="frame" x="67" y="129" width="301" height="217"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Lea Michele's Egg White Fritatta" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5kt-S6-FSx">
                                                 <rect key="frame" x="47" y="87" width="321" height="34"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -839,6 +835,16 @@
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Unknown-7" translatesAutoresizingMaskIntoConstraints="NO" id="W51-T5-RGa">
+                                                <rect key="frame" x="60" y="208" width="301" height="217"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cp4-BZ-KPe">
+                                                <rect key="frame" x="99" y="137" width="223" height="42"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                                <state key="normal" title="Click here for playlist"/>
+                                            </button>
                                         </subviews>
                                         <color key="backgroundColor" red="1" green="0.84534511935501189" blue="0.68100944077648728" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
@@ -1356,7 +1362,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="nT7-er-Ox2"/>
+        <segue reference="SWK-3V-nbc"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Image from iOS" width="964" height="1022"/>
