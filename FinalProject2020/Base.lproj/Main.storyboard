@@ -163,9 +163,9 @@
                                 <rect key="frame" x="44" y="129" width="327" height="414"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="0.98411681920000005" blue="0.87257982239999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <mutableString key="text">Food Pantries near you:                                                                                 - Capital Area Foodbank           
+                                <string key="text">Food Pantries near you:                                                                                 - Capital Area Foodbank           
 (202) 644-9800                                        -  Capital Area Food Bank - Washington                           
-(202) 644-9800                                     - So Others May Eat                           (202) 797-8806                                           - Thrive D.C.                                              202-737-9311                     -Washington City Church of the Brethren Nutrition Program                                     (202) 547-5924</mutableString>
+(202) 644-9800                                     - So Others May Eat                           (202) 797-8806                                           - Thrive D.C.                                              202-737-9311                     -Washington City Church of the Brethren Nutrition Program                                     (202) 547-5924</string>
                                 <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="19"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -287,7 +287,7 @@
                                 <rect key="frame" x="44" y="510" width="327" height="214"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="0.98411681920000005" blue="0.87257982239999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <mutableString key="text">Where to donate money! 💵                              - Philabundance                              - Feeding America                                - Feed The Children                              - World Food Program USA                     - Some food banks will also accept money donations </mutableString>
+                                <string key="text">Where to donate money! 💵                              - Philabundance                              - Feeding America                                - Feed The Children                              - World Food Program USA                     - Some food banks will also accept money donations </string>
                                 <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="19"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1157,7 +1157,7 @@ Salted butter optional for serving</string>
                                                 <rect key="frame" x="44" y="541" width="327" height="390"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" red="1" green="0.98411681920000005" blue="0.87257982239999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <mutableString key="text">Chrissy Teigen’s French Toast Casserole With Salted Frosted Flakes                                          -                                                                      Ingredients:                                         1 tablespoon butter
+                                                <string key="text">Chrissy Teigen’s French Toast Casserole With Salted Frosted Flakes                                          -                                                                      Ingredients:                                         1 tablespoon butter
 1 pound French bread (1 large loaf), cut into 1-inch pieces
 8 large eggs
 2 cups heavy cream
@@ -1167,7 +1167,7 @@ Salted butter optional for serving</string>
 1 tablespoon pure vanilla extract
 1 teaspoon ground cinnamon
 1/2 teaspoon freshly grated nutmeg
-</mutableString>
+</string>
                                                 <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                                 <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="17"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1189,7 +1189,7 @@ The Topping
                                                 <rect key="frame" x="44" y="1110" width="327" height="373"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" red="1" green="0.98411681920000005" blue="0.87257982239999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <mutableString key="text">Directions:                                                     - Butter a 9 x 13-inch baking dish (or a tall-sided 12-inch ovenproof skillet) and arrange the cubed bread in the dish.                                                     - In a big bowl, whisk the eggs to combine, then whisk in the heavy cream, milk, rum, brown sugar, vanilla, cinnamon, nutmeg, and salt until smooth. Pour the mixture over the bread, really pressing down on the bread to help the custard soak in. Cover with plastic wrap and refrigerate for at least 6 hours and up to 12.</mutableString>
+                                                <string key="text">Directions:                                                     - Butter a 9 x 13-inch baking dish (or a tall-sided 12-inch ovenproof skillet) and arrange the cubed bread in the dish.                                                     - In a big bowl, whisk the eggs to combine, then whisk in the heavy cream, milk, rum, brown sugar, vanilla, cinnamon, nutmeg, and salt until smooth. Pour the mixture over the bread, really pressing down on the bread to help the custard soak in. Cover with plastic wrap and refrigerate for at least 6 hours and up to 12.</string>
                                                 <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                                 <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="17"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1754,8 +1754,8 @@ The Topping
                                                 <rect key="frame" x="45" y="914" width="327" height="422"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <mutableString key="text">very lightly with a fork. Using your hands, lightly form the mixture into 4cm meatballs. You will have 14 to 16 meatballs.
-2) Pour equal amounts of vegetable oil and olive oil into a large frying pan to a depth of 1cm and heat. Very carefully, in batches, place the meatballs in the hot oil and brown them well on all sides over a medium-low heat, turning carefully with a spatula or a fork, about 10 minutes for each batch. Don't crowd the meatballs. Remove cooked meatballs to a plate covered with paper towels. Discard the oil but don't clean the pan.</mutableString>
+                                                <string key="text">very lightly with a fork. Using your hands, lightly form the mixture into 4cm meatballs. You will have 14 to 16 meatballs.
+2) Pour equal amounts of vegetable oil and olive oil into a large frying pan to a depth of 1cm and heat. Very carefully, in batches, place the meatballs in the hot oil and brown them well on all sides over a medium-low heat, turning carefully with a spatula or a fork, about 10 minutes for each batch. Don't crowd the meatballs. Remove cooked meatballs to a plate covered with paper towels. Discard the oil but don't clean the pan.</string>
                                                 <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                                 <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="17"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1785,10 +1785,9 @@ The Topping
                                                 <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="17"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2vE-o1-Mci">
-                                                <rect key="frame" x="23" y="212" width="371" height="228"/>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="spaghetti-meatballs-today-170214-tease_ee84c7809dded3e3fe26fe673b948f7c.focal-860x430" translatesAutoresizingMaskIntoConstraints="NO" id="2vE-o1-Mci">
+                                                <rect key="frame" x="27" y="212" width="362" height="228"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <string key="image">eyJidWNrZXQiOiJsb21hLW1lZGlhLXVrIiwia2V5IjoiZm9vZG5ldHdvcmstaW1hZ2UtNzViZGU0OWYtZGQ4NC00YjljLTgxZjktYTkxMGQ5MTViYTA0LmpwZWciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjc1MCwiaGVpZ2h0Ijo0MjIsImZpdCI6ImNvdmVyIn19fQ==</string>
                                             </imageView>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -2182,10 +2181,9 @@ The Topping
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="Opk-jW-XMu"/>
         <segue reference="0Rr-Ss-o64"/>
         <segue reference="6VS-p7-MXB"/>
-        <segue reference="V9V-Jw-TZD"/>
+        <segue reference="Ag3-Vw-2cj"/>
         <segue reference="XsK-lT-DR6"/>
         <segue reference="xiT-dg-NW5"/>
         <segue reference="ozd-lu-yAt"/>
@@ -2213,10 +2211,8 @@ The Topping
         <image name="d3f132fc73a39c5d3a8bcb4efaf15c69--tomato-soups-lady-gaga" width="474" height="663"/>
         <image name="dolly" width="480" height="270"/>
         <image name="dolly food" width="1200" height="800"/>
-        <image width="750" height="422">
-            <string key="name">eyJidWNrZXQiOiJsb21hLW1lZGlhLXVrIiwia2V5IjoiZm9vZG5ldHdvcmstaW1hZ2UtNzViZGU0OWYtZGQ4NC00YjljLTgxZjktYTkxMGQ5MTViYTA0LmpwZWciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjc1MCwiaGVpZ2h0Ijo0MjIsImZpdCI6ImNvdmVyIn19fQ==</string>
-        </image>
         <image name="sldkfjds-removebg-preview" width="300" height="364"/>
+        <image name="spaghetti-meatballs-today-170214-tease_ee84c7809dded3e3fe26fe673b948f7c.focal-860x430" width="860" height="430"/>
         <image name="t swift " width="808" height="606"/>
         <image name="t swift cookies" width="306" height="306"/>
         <image name="tmp_JXzFVQ_f448748308db9482_IMG_1118" width="2048" height="1365"/>
