@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
@@ -276,10 +276,10 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="lKe-kf-zcU">
-                                <rect key="frame" x="44" y="510" width="327" height="178"/>
+                                <rect key="frame" x="44" y="510" width="327" height="214"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="0.98411681920000005" blue="0.87257982239999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <string key="text">Where to donate money! 💵                              - Philabundance                              - Feeding America                                - Feed The Children                              - World Food Program USA                     - Some food banks will also accept money donations </string>
+                                <mutableString key="text">Where to donate money! 💵                              - Philabundance                              - Feeding America                                - Feed The Children                              - World Food Program USA                     - Some food banks will also accept money donations </mutableString>
                                 <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="19"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -363,10 +363,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Mj-tE-XBX">
-                                <rect key="frame" x="53" y="403" width="271" height="36"/>
+                                <rect key="frame" x="55" y="403" width="267" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <state key="normal" title="Chrissy Teigen&quot;s Banana Bread"/>
+                                <state key="normal" title="Chrissy Teigen's Banana Bread"/>
                                 <connections>
                                     <segue destination="7IX-a6-ljg" kind="show" id="jA6-6K-5Rq"/>
                                 </connections>
@@ -564,7 +564,7 @@ Salted butter optional for serving</string>
                                 <rect key="frame" x="44" y="512" width="327" height="143.5"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemGray5Color" red="0.8980392157" green="0.8980392157" blue="0.91764705879999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <string key="text">- Use songshift to transfer the playlist to your steming service                            - Search John Legend (Her husband!) on any streaming service to find songs by her</string>
+                                <string key="text">- Use songshift to transfer the playlist to your streaming service                            - Search John Legend (Her husband!) on any streaming service to find songs by her</string>
                                 <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -917,7 +917,7 @@ Salted butter optional for serving</string>
                                 <rect key="frame" x="39" y="513" width="327" height="118"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemGray5Color" red="0.8980392157" green="0.8980392157" blue="0.91764705879999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <string key="text">- Use songshift to transfer the playlist to your steming service                            - Search Taylor Swift on any streaming service to find songs by her</string>
+                                <string key="text">- Use songshift to transfer the playlist to your streaming service                            - Search Taylor Swift on any streaming service to find songs by her</string>
                                 <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1110,9 +1110,9 @@ Salted butter optional for serving</string>
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="2000"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Chrissy Teigen’s French Toast Casserole" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="afr-o2-ISP">
-                                                <rect key="frame" x="28" y="102" width="358" height="86"/>
+                                                <rect key="frame" x="15" y="107" width="384" height="86"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="18"/>
+                                                <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="20"/>
                                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
@@ -1124,8 +1124,73 @@ Salted butter optional for serving</string>
                                                     <segue destination="64R-sS-of2" kind="show" id="m0s-7i-350"/>
                                                 </connections>
                                             </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WFz-mp-vQj">
+                                                <rect key="frame" x="96" y="183" width="223" height="42"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                                <state key="normal" title="Click here for playlist"/>
+                                                <connections>
+                                                    <segue destination="Ngh-2B-G3O" kind="show" id="VmT-TA-gwh"/>
+                                                </connections>
+                                            </button>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Unknown-6" translatesAutoresizingMaskIntoConstraints="NO" id="GcE-ne-g4n">
+                                                <rect key="frame" x="15" y="251" width="384" height="269"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="kKL-bk-bXW">
+                                                <rect key="frame" x="44" y="541" width="327" height="390"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="1" green="0.98411681920000005" blue="0.87257982239999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <string key="text">Ingredients:                                         1 tablespoon butter
+1 pound French bread (1 large loaf), cut into 1-inch pieces
+8 large eggs
+2 cups heavy cream
+1 cup whole milk
+1/2 cup rum (we used Meyer's dark rum—if you're concerned about the alcohol, feel free to reduce, replacing with another liquid like milk)
+1 cup lightly packed light brown sugar
+1 tablespoon pure vanilla extract
+1 teaspoon ground cinnamon
+1/2 teaspoon freshly grated nutmeg
+</string>
+                                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="17"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="3tw-MF-203">
+                                                <rect key="frame" x="44" y="923" width="327" height="144"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="1" green="0.98411681920000005" blue="0.87257982239999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <string key="text">1/2 teaspoon kosher salt
+The Topping
+3 cups Frosted Flakes cereal
+3 tablespoons unsalted butter
+1/2 teaspoon kosher salt</string>
+                                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="17"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="988-kE-Vre">
+                                                <rect key="frame" x="44" y="1110" width="327" height="373"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="1" green="0.98411681920000005" blue="0.87257982239999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <mutableString key="text">Directions:                                                     - Butter a 9 x 13-inch baking dish (or a tall-sided 12-inch ovenproof skillet) and arrange the cubed bread in the dish.                                                     - In a big bowl, whisk the eggs to combine, then whisk in the heavy cream, milk, rum, brown sugar, vanilla, cinnamon, nutmeg, and salt until smooth. Pour the mixture over the bread, really pressing down on the bread to help the custard soak in. Cover with plastic wrap and refrigerate for at least 6 hours and up to 12.</mutableString>
+                                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="17"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="2cU-z6-0hN">
+                                                <rect key="frame" x="44" y="1470" width="327" height="373"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="1" green="0.98411681920000005" blue="0.87257982239999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <string key="text">- Heat the oven to 350°F. Take the casserole out of the fridge and let it sit at room temp for 30 minutes.
+- Make the topping: In a bowl, combine the cereal, melted butter, and salt and toss to coat. Spread the mixture evenly over the casserole.
+- Bake until the topping is golden and the bread cubes peeking out of the top are crusty and toasty, 50 to 55 minutes. Serve warm with maple syrup.</string>
+                                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="17"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
                                         </subviews>
-                                        <color key="backgroundColor" red="1" green="0.98823273509999998" blue="0.91075464510000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="backgroundColor" red="1" green="0.98411681920000005" blue="0.87257982239999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="2000" id="mwZ-2E-xJw"/>
                                         </constraints>
@@ -1171,13 +1236,6 @@ Salted butter optional for serving</string>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Spk-ii-dFv">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="2000"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Breakfast" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZTS-z7-K0i">
-                                                <rect key="frame" x="131" y="56" width="153" height="36"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="35"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="zQj-L1-7Ln">
                                                 <rect key="frame" x="47" y="454" width="327" height="311"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1221,9 +1279,9 @@ Salted butter optional for serving</string>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Lea Michele's Egg White Fritatta" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5kt-S6-FSx">
-                                                <rect key="frame" x="47" y="87" width="321" height="34"/>
+                                                <rect key="frame" x="28" y="63" width="359" height="78"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="21"/>
+                                                <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="23"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
@@ -1520,7 +1578,7 @@ Salted butter optional for serving</string>
                                 <rect key="frame" x="44" y="522" width="327" height="118"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemGray5Color" red="0.8980392157" green="0.8980392157" blue="0.91764705879999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <string key="text">- Use songshift to transfer the playlist to your steming service                            - Search Dolly Parton on any streaming service to find songs by her</string>
+                                <string key="text">- Use songshift to transfer the playlist to your streaming service                            - Search Dolly Parton on any streaming service to find songs by her</string>
                                 <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1638,6 +1696,20 @@ Salted butter optional for serving</string>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oRV-a3-a1r">
+                                                <rect key="frame" x="96" y="162" width="223" height="42"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                                <state key="normal" title="Click here for playlist"/>
+                                                <connections>
+                                                    <segue destination="Yia-Z4-obO" kind="show" id="bE5-Xn-CkW"/>
+                                                </connections>
+                                            </button>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="P7Q-kQ-YK2">
+                                                <rect key="frame" x="22" y="212" width="371" height="228"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="image">eyJidWNrZXQiOiJsb21hLW1lZGlhLXVrIiwia2V5IjoiZm9vZG5ldHdvcmstaW1hZ2UtNzViZGU0OWYtZGQ4NC00YjljLTgxZjktYTkxMGQ5MTViYTA0LmpwZWciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjc1MCwiaGVpZ2h0Ijo0MjIsImZpdCI6ImNvdmVyIn19fQ==</string>
+                                            </imageView>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                         <constraints>
@@ -2033,13 +2105,15 @@ Salted butter optional for serving</string>
         <segue reference="0Rr-Ss-o64"/>
         <segue reference="6VS-p7-MXB"/>
         <segue reference="Ag3-Vw-2cj"/>
-        <segue reference="XsK-lT-DR6"/>
+        <segue reference="5gE-vS-8Tv"/>
         <segue reference="xiT-dg-NW5"/>
-        <segue reference="ozd-lu-yAt"/>
+        <segue reference="m0s-7i-350"/>
+        <segue reference="bE5-Xn-CkW"/>
         <segue reference="2rC-Fv-JhV"/>
-        <segue reference="jA6-6K-5Rq"/>
-        <segue reference="K6b-mx-Qjr"/>
-        <segue reference="7VQ-FJ-3Xt"/>
+        <segue reference="VmT-TA-gwh"/>
+        <segue reference="NT3-K7-t6M"/>
+        <segue reference="BWl-Da-szw"/>
+        <segue reference="syk-D3-eyO"/>
         <segue reference="SWK-3V-nbc"/>
     </inferredMetricsTieBreakers>
     <resources>
@@ -2047,12 +2121,16 @@ Salted butter optional for serving</string>
         <image name="Unknown-10" width="275" height="183"/>
         <image name="Unknown-11" width="276" height="182"/>
         <image name="Unknown-12" width="275" height="183"/>
+        <image name="Unknown-6" width="225" height="225"/>
         <image name="Unknown-7" width="200" height="252"/>
         <image name="Unknown-8" width="225" height="224"/>
         <image name="Unknown-9" width="259" height="194"/>
         <image name="d3f132fc73a39c5d3a8bcb4efaf15c69--tomato-soups-lady-gaga" width="474" height="663"/>
         <image name="dolly" width="480" height="270"/>
         <image name="dolly food" width="1200" height="800"/>
+        <image width="750" height="422">
+            <string key="name">eyJidWNrZXQiOiJsb21hLW1lZGlhLXVrIiwia2V5IjoiZm9vZG5ldHdvcmstaW1hZ2UtNzViZGU0OWYtZGQ4NC00YjljLTgxZjktYTkxMGQ5MTViYTA0LmpwZWciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjc1MCwiaGVpZ2h0Ijo0MjIsImZpdCI6ImNvdmVyIn19fQ==</string>
+        </image>
         <image name="sldkfjds-removebg-preview" width="300" height="364"/>
         <image name="t swift " width="808" height="606"/>
         <image name="t swift cookies" width="306" height="306"/>
