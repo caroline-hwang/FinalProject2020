@@ -1043,7 +1043,7 @@ Salted butter optional for serving</string>
         <!--View Controller-->
         <scene sceneID="xhF-h8-aH5">
             <objects>
-                <viewController id="64R-sS-of2" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="64R-sS-of2" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="h4H-ft-XMe">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1055,24 +1055,41 @@ Salted butter optional for serving</string>
                                 <color key="textColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Lea Michele's Egg White Fritatta" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tHv-al-y6Y">
-                                <rect key="frame" x="47" y="326" width="321" height="34"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gyq-pz-Gx7">
+                                <rect key="frame" x="43" y="282" width="336" height="46"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="21"/>
-                                <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Chrissy Teigen’s French Toast Casserole" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mqS-Br-Cc7">
-                                <rect key="frame" x="28" y="405" width="358" height="86"/>
+                                <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="22"/>
+                                <state key="normal" title="Lea Michele's Egg White Fritatta">
+                                    <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                </state>
+                                <connections>
+                                    <segue destination="usu-qS-TDu" kind="show" id="xiT-dg-NW5"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SXK-8f-cPQ">
+                                <rect key="frame" x="39" y="389" width="336" height="79"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="18"/>
-                                <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                                <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="17"/>
+                                <state key="normal" title="Chrissy Teigen's French Toast Casserole">
+                                    <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                </state>
+                                <connections>
+                                    <segue destination="gSg-hs-nd3" kind="show" id="QY4-AZ-LC9"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ECN-Zm-QMa">
+                                <rect key="frame" x="20" y="44" width="41" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Back"/>
+                                <connections>
+                                    <segue destination="uxS-mG-zbX" kind="show" id="QRz-OW-cVD"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.021970520895832436" blue="0.28076424870466321" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="7rJ-YC-EI7"/>
                     </view>
+                    <navigationItem key="navigationItem" id="iJX-gm-NQ4"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lbx-P8-5mp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1081,26 +1098,35 @@ Salted butter optional for serving</string>
         <!--View Controller-->
         <scene sceneID="OEs-tl-3S9">
             <objects>
-                <viewController id="gSg-hs-nd3" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="gSg-hs-nd3" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="c9n-N0-jpK">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Chrissy Teigen’s French Toast Casserole" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AkS-Wm-EIi">
-                                <rect key="frame" x="28" y="142" width="358" height="86"/>
+                                <rect key="frame" x="28" y="83" width="358" height="86"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="18"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mlq-e2-t88">
+                                <rect key="frame" x="20" y="44" width="41" height="67"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Back"/>
+                                <connections>
+                                    <segue destination="64R-sS-of2" kind="show" id="4PJ-9f-o61"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.98339368920000003" green="1" blue="0.85793434810000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="wWe-A5-IIh"/>
                     </view>
+                    <navigationItem key="navigationItem" id="54Y-gz-bXJ"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4za-1z-TVf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1444" y="-1133"/>
+            <point key="canvasLocation" x="-1444.9275362318842" y="-1133.0357142857142"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="URO-Xh-fPa">
@@ -1190,7 +1216,7 @@ Salted butter optional for serving</string>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Back"/>
                                                 <connections>
-                                                    <segue destination="uxS-mG-zbX" kind="show" id="zGD-4V-hGh"/>
+                                                    <segue destination="64R-sS-of2" kind="show" id="lp0-x5-jOn"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -1801,7 +1827,7 @@ Salted butter optional for serving</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <state key="normal" title="Breakfast"/>
                                 <connections>
-                                    <segue destination="usu-qS-TDu" kind="show" id="6Zh-nC-4d3"/>
+                                    <segue destination="64R-sS-of2" kind="show" id="ozd-lu-yAt"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Hz-DY-9dg">
@@ -1858,15 +1884,17 @@ Salted butter optional for serving</string>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="zGD-4V-hGh"/>
-        <segue reference="DYw-fg-BcL"/>
-        <segue reference="5gE-vS-8Tv"/>
-        <segue reference="6Zh-nC-4d3"/>
+        <segue reference="QY4-AZ-LC9"/>
+        <segue reference="QRz-OW-cVD"/>
+        <segue reference="eKy-VX-O6m"/>
+        <segue reference="XsK-lT-DR6"/>
+        <segue reference="xiT-dg-NW5"/>
+        <segue reference="4PJ-9f-o61"/>
         <segue reference="5KC-Me-wFR"/>
         <segue reference="NT3-K7-t6M"/>
-        <segue reference="e7H-pF-yba"/>
+        <segue reference="K6b-mx-Qjr"/>
         <segue reference="7VQ-FJ-3Xt"/>
-        <segue reference="nT7-er-Ox2"/>
+        <segue reference="SWK-3V-nbc"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Image from iOS" width="964" height="1022"/>
