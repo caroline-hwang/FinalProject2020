@@ -104,14 +104,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Local Community!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0kC-wX-AWs">
-                                <rect key="frame" x="55" y="114" width="304" height="36"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="35"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="How to help out your" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dmd-Nb-QCm">
-                                <rect key="frame" x="30" y="70" width="355" height="36"/>
+                                <rect key="frame" x="55" y="148" width="304" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="35"/>
                                 <nil key="textColor"/>
@@ -134,6 +127,13 @@
                                     <segue destination="BYZ-38-t0r" kind="show" id="nT7-er-Ox2"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="How to help out your" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dmd-Nb-QCm">
+                                <rect key="frame" x="32" y="104" width="355" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="35"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.80583887180000002" green="0.90592372060000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="HaH-Lg-LPh"/>
@@ -163,15 +163,15 @@
                                 <rect key="frame" x="44" y="129" width="327" height="414"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="0.98411681920000005" blue="0.87257982239999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <string key="text">Food Pantries near you:                                                                                 - Capital Area Foodbank           
+                                <mutableString key="text">Food Pantries near you:                                                                                 - Capital Area Foodbank           
 (202) 644-9800                                        -  Capital Area Food Bank - Washington                           
-(202) 644-9800                                     - So Others May Eat                           (202) 797-8806                                           - Thrive D.C.                                              202-737-9311                     -Washington City Church of the Brethren Nutrition Program                                     (202) 547-5924</string>
+(202) 644-9800                                     - So Others May Eat                           (202) 797-8806                                           - Thrive D.C.                                              202-737-9311                     -Washington City Church of the Brethren Nutrition Program                                     (202) 547-5924</mutableString>
                                 <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="21"/>
+                                <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="19"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Ssv-sK-BRy">
-                                <rect key="frame" x="44" y="577" width="327" height="178"/>
+                                <rect key="frame" x="44" y="511" width="327" height="178"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="0.98411681920000005" blue="0.87257982239999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <string key="text">Where to donate money! 💵                              - Feeding America                                - Feed The Children                              - World Food Program USA                     - Some food banks will also accept money donations </string>
@@ -187,6 +187,10 @@
                                     <segue destination="A22-0J-HgL" kind="show" id="JAZ-OR-tIM"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Unknown-16" translatesAutoresizingMaskIntoConstraints="NO" id="4hq-qH-KOX">
+                                <rect key="frame" x="148" y="697" width="246" height="145"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.98411681920000005" blue="0.87257982239999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="ugQ-Y3-1LD"/>
@@ -206,14 +210,14 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Newark" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fmn-6A-NSf">
-                                <rect key="frame" x="143" y="54" width="128" height="36"/>
+                                <rect key="frame" x="143" y="92" width="128" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="35"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="rk9-MB-cOr">
-                                <rect key="frame" x="44" y="114" width="327" height="354"/>
+                                <rect key="frame" x="44" y="136" width="327" height="354"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="0.98411681920000005" blue="0.87257982239999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <string key="text">Food Pantries near you:                                                                                 - St Michael's Parish - Food Pantry           
@@ -224,7 +228,7 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="lYo-sO-RTm">
-                                <rect key="frame" x="44" y="528" width="327" height="178"/>
+                                <rect key="frame" x="44" y="498" width="327" height="178"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="0.98411681920000005" blue="0.87257982239999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <string key="text">Where to donate money! 💵                              - Feeding America                                - Feed The Children                              - World Food Program USA                     - Some food banks will also accept money donations </string>
@@ -240,6 +244,10 @@
                                     <segue destination="A22-0J-HgL" kind="show" id="nHD-bF-I8h"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Unknown-14" translatesAutoresizingMaskIntoConstraints="NO" id="xNl-mt-Ddd">
+                                <rect key="frame" x="143" y="703" width="240" height="138"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.98411681920000005" blue="0.87257982239999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="wtv-LU-b1Q"/>
@@ -259,7 +267,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Philadelphia " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gll-ti-XCn">
-                                <rect key="frame" x="98" y="66" width="218" height="36"/>
+                                <rect key="frame" x="98" y="87" width="218" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="35"/>
                                 <nil key="textColor"/>
@@ -292,6 +300,10 @@
                                     <segue destination="A22-0J-HgL" kind="show" id="syk-D3-eyO"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Unknown-13" translatesAutoresizingMaskIntoConstraints="NO" id="dS4-yu-J35">
+                                <rect key="frame" x="154" y="732" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.98411681920000005" blue="0.87257982239999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="zoj-yK-A1d"/>
@@ -328,7 +340,7 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="piG-n5-7UP">
-                                <rect key="frame" x="44" y="523" width="327" height="215.5"/>
+                                <rect key="frame" x="44" y="494" width="327" height="215.5"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="0.98411681920000005" blue="0.87257982239999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <string key="text">Where to donate money! 💵                              - Food Bank For New York City        - Feeding America                                - Feed The Children                              - World Food Program USA                     - Some food banks will also accept money donations </string>
@@ -344,6 +356,10 @@
                                     <segue destination="A22-0J-HgL" kind="show" id="76n-sw-9DY"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Unknown-15" translatesAutoresizingMaskIntoConstraints="NO" id="gRO-dk-YeQ">
+                                <rect key="frame" x="154" y="717" width="240" height="138"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.98411681920000005" blue="0.87257982239999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="PoA-C2-l1p"/>
@@ -363,7 +379,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Mj-tE-XBX">
-                                <rect key="frame" x="55" y="403" width="267" height="36"/>
+                                <rect key="frame" x="71" y="511" width="267" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="Chrissy Teigen's Banana Bread"/>
@@ -371,15 +387,8 @@
                                     <segue destination="7IX-a6-ljg" kind="show" id="jA6-6K-5Rq"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Dessert" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wp2-cs-uTN">
-                                <rect key="frame" x="156" y="139" width="103" height="52"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="25"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GsH-M4-hpN">
-                                <rect key="frame" x="15" y="277" width="379" height="36"/>
+                                <rect key="frame" x="18" y="341" width="379" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="Taylor Swift's Chai Tea and Eggnog Cookies"/>
@@ -395,6 +404,13 @@
                                     <segue destination="uxS-mG-zbX" kind="show" id="2Zp-KH-lzr"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Dessert🍦🍰🍪" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wp2-cs-uTN">
+                                <rect key="frame" x="104" y="215" width="200" height="52"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.97035829613885272" blue="0.80142098489352143" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="z9L-Am-iN0"/>
@@ -435,20 +451,9 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tmp_JXzFVQ_f448748308db9482_IMG_1118" translatesAutoresizingMaskIntoConstraints="NO" id="Y7s-2J-xhJ">
-                                                <rect key="frame" x="87" y="167" width="240" height="128"/>
+                                                <rect key="frame" x="65" y="167" width="284" height="161"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gcJ-Og-F1Y">
-                                                <rect key="frame" x="96" y="320" width="223" height="42"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                                <state key="normal" title="Click here for playlist">
-                                                    <color key="titleColor" red="0.74728347080000002" green="0.3631908875" blue="0.11401384270000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                </state>
-                                                <connections>
-                                                    <segue destination="Ngh-2B-G3O" kind="show" id="DWw-zv-0Qv"/>
-                                                </connections>
-                                            </button>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Y8O-Bf-Trw">
                                                 <rect key="frame" x="44" y="393" width="327" height="398.5"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -467,6 +472,17 @@ Salted butter optional for serving</string>
                                                 <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="19"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gcJ-Og-F1Y">
+                                                <rect key="frame" x="96" y="336" width="223" height="42"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                                <state key="normal" title="Click here for playlist">
+                                                    <color key="titleColor" red="0.74728347080000002" green="0.3631908875" blue="0.11401384270000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                </state>
+                                                <connections>
+                                                    <segue destination="Ngh-2B-G3O" kind="show" id="DWw-zv-0Qv"/>
+                                                </connections>
+                                            </button>
                                         </subviews>
                                         <color key="backgroundColor" red="1" green="0.92295743029999999" blue="0.82588669270000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <constraints>
@@ -1048,23 +1064,19 @@ Salted butter optional for serving</string>
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gyq-pz-Gx7">
-                                <rect key="frame" x="43" y="282" width="336" height="46"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Breakfast🍳🥐☕️" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rve-ld-0wT">
+                                <rect key="frame" x="60" y="201" width="295" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="22"/>
-                                <state key="normal" title="Lea Michele's Egg White Fritatta">
-                                    <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
-                                </state>
-                                <connections>
-                                    <segue destination="usu-qS-TDu" kind="show" id="xiT-dg-NW5"/>
-                                </connections>
-                            </button>
+                                <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="40"/>
+                                <color key="textColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SXK-8f-cPQ">
-                                <rect key="frame" x="39" y="389" width="336" height="79"/>
+                                <rect key="frame" x="39" y="512" width="336" height="79"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="17"/>
                                 <state key="normal" title="Chrissy Teigen's French Toast Casserole">
-                                    <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
                                     <segue destination="xEh-vm-vfY" kind="show" id="Q7c-e3-id4"/>
@@ -1078,13 +1090,17 @@ Salted butter optional for serving</string>
                                     <segue destination="uxS-mG-zbX" kind="show" id="QRz-OW-cVD"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Breakfast" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rve-ld-0wT">
-                                <rect key="frame" x="120" y="176" width="175" height="40"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gyq-pz-Gx7">
+                                <rect key="frame" x="39" y="373" width="336" height="46"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="40"/>
-                                <color key="textColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                                <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="22"/>
+                                <state key="normal" title="Lea Michele's Egg White Fritatta">
+                                    <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                </state>
+                                <connections>
+                                    <segue destination="usu-qS-TDu" kind="show" id="xiT-dg-NW5"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.021970520895832436" blue="0.28076424870466321" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="7rJ-YC-EI7"/>
@@ -1621,7 +1637,7 @@ The Topping
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LIL-DO-nCW">
-                                <rect key="frame" x="19" y="298" width="383" height="62"/>
+                                <rect key="frame" x="16" y="384" width="383" height="62"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="21"/>
                                 <state key="normal" title="Dolly Parton's Chicken and Dumplings">
@@ -1632,7 +1648,7 @@ The Topping
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Akb-Jz-0gk">
-                                <rect key="frame" x="16" y="402" width="383" height="62"/>
+                                <rect key="frame" x="16" y="523" width="383" height="62"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="21"/>
                                 <state key="normal" title="Taylor Swift's Spaghetti and Meatballs">
@@ -1650,8 +1666,8 @@ The Topping
                                     <segue destination="uxS-mG-zbX" kind="show" id="0Rr-Ss-o64"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Dinner" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z0R-Ye-HWt">
-                                <rect key="frame" x="147" y="178" width="126" height="93"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Dinner 🥘 🍝🍱" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z0R-Ye-HWt">
+                                <rect key="frame" x="74" y="229" width="266" height="93"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="36"/>
                                 <nil key="textColor"/>
@@ -1705,11 +1721,6 @@ The Topping
                                                     <segue destination="Yia-Z4-obO" kind="show" id="bE5-Xn-CkW"/>
                                                 </connections>
                                             </button>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="P7Q-kQ-YK2">
-                                                <rect key="frame" x="22" y="212" width="371" height="228"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <string key="image">eyJidWNrZXQiOiJsb21hLW1lZGlhLXVrIiwia2V5IjoiZm9vZG5ldHdvcmstaW1hZ2UtNzViZGU0OWYtZGQ4NC00YjljLTgxZjktYTkxMGQ5MTViYTA0LmpwZWciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjc1MCwiaGVpZ2h0Ijo0MjIsImZpdCI6ImNvdmVyIn19fQ==</string>
-                                            </imageView>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Yfe-DY-dWK">
                                                 <rect key="frame" x="42" y="448" width="327" height="311"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1774,6 +1785,11 @@ The Topping
                                                 <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="17"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2vE-o1-Mci">
+                                                <rect key="frame" x="23" y="212" width="371" height="228"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="image">eyJidWNrZXQiOiJsb21hLW1lZGlhLXVrIiwia2V5IjoiZm9vZG5ldHdvcmstaW1hZ2UtNzViZGU0OWYtZGQ4NC00YjljLTgxZjktYTkxMGQ5MTViYTA0LmpwZWciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjc1MCwiaGVpZ2h0Ijo0MjIsImZpdCI6ImNvdmVyIn19fQ==</string>
+                                            </imageView>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                         <constraints>
@@ -2104,7 +2120,7 @@ The Topping
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Aze-eD-SBl">
-                                <rect key="frame" x="157" y="196" width="102" height="42"/>
+                                <rect key="frame" x="156" y="252" width="102" height="42"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <state key="normal" title="Breakfast"/>
@@ -2113,7 +2129,7 @@ The Topping
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Hz-DY-9dg">
-                                <rect key="frame" x="174" y="486" width="72" height="42"/>
+                                <rect key="frame" x="174" y="518" width="72" height="42"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <state key="normal" title="Dinner"/>
@@ -2121,17 +2137,8 @@ The Topping
                                     <segue destination="Heh-aw-AUh" kind="show" id="V9V-Jw-TZD"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oN2-du-QRa">
-                                <rect key="frame" x="168" y="637" width="85" height="42"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                <state key="normal" title="Dessert"/>
-                                <connections>
-                                    <segue destination="aLp-KK-DT1" kind="show" id="K6b-mx-Qjr"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LQs-20-gxU">
-                                <rect key="frame" x="176" y="337" width="68" height="42"/>
+                                <rect key="frame" x="173" y="387" width="68" height="42"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <state key="normal" title="Lunch"/>
@@ -2140,7 +2147,7 @@ The Topping
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Step 1: Pick your meal" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EFW-in-4Qa">
-                                <rect key="frame" x="20" y="98" width="374" height="36"/>
+                                <rect key="frame" x="20" y="152" width="374" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="35"/>
                                 <nil key="textColor"/>
@@ -2152,6 +2159,15 @@ The Topping
                                 <state key="normal" title="Back"/>
                                 <connections>
                                     <segue destination="BYZ-38-t0r" kind="show" id="SWK-3V-nbc"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oN2-du-QRa">
+                                <rect key="frame" x="168" y="652" width="85" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <state key="normal" title="Dessert"/>
+                                <connections>
+                                    <segue destination="aLp-KK-DT1" kind="show" id="K6b-mx-Qjr"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -2166,19 +2182,19 @@ The Topping
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="wBP-hE-xvl"/>
-        <segue reference="uIn-fQ-2AU"/>
+        <segue reference="Opk-jW-XMu"/>
+        <segue reference="0Rr-Ss-o64"/>
         <segue reference="6VS-p7-MXB"/>
-        <segue reference="Ag3-Vw-2cj"/>
-        <segue reference="5gE-vS-8Tv"/>
+        <segue reference="V9V-Jw-TZD"/>
+        <segue reference="XsK-lT-DR6"/>
         <segue reference="xiT-dg-NW5"/>
-        <segue reference="lp0-x5-jOn"/>
+        <segue reference="ozd-lu-yAt"/>
         <segue reference="bE5-Xn-CkW"/>
         <segue reference="2rC-Fv-JhV"/>
-        <segue reference="VmT-TA-gwh"/>
-        <segue reference="NT3-K7-t6M"/>
-        <segue reference="BWl-Da-szw"/>
-        <segue reference="syk-D3-eyO"/>
+        <segue reference="DWw-zv-0Qv"/>
+        <segue reference="jA6-6K-5Rq"/>
+        <segue reference="K6b-mx-Qjr"/>
+        <segue reference="JAZ-OR-tIM"/>
         <segue reference="SWK-3V-nbc"/>
     </inferredMetricsTieBreakers>
     <resources>
@@ -2186,6 +2202,10 @@ The Topping
         <image name="Unknown-10" width="275" height="183"/>
         <image name="Unknown-11" width="276" height="182"/>
         <image name="Unknown-12" width="275" height="183"/>
+        <image name="Unknown-13" width="291" height="173"/>
+        <image name="Unknown-14" width="291" height="173"/>
+        <image name="Unknown-15" width="300" height="168"/>
+        <image name="Unknown-16" width="284" height="177"/>
         <image name="Unknown-6" width="225" height="225"/>
         <image name="Unknown-7" width="200" height="252"/>
         <image name="Unknown-8" width="225" height="224"/>
