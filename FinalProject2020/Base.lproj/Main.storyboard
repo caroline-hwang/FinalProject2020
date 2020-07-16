@@ -1048,13 +1048,6 @@ Salted butter optional for serving</string>
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Breakfast" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rve-ld-0wT">
-                                <rect key="frame" x="131" y="167" width="153" height="36"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="35"/>
-                                <color key="textColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gyq-pz-Gx7">
                                 <rect key="frame" x="43" y="282" width="336" height="46"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1085,6 +1078,13 @@ Salted butter optional for serving</string>
                                     <segue destination="uxS-mG-zbX" kind="show" id="QRz-OW-cVD"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Breakfast" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rve-ld-0wT">
+                                <rect key="frame" x="120" y="176" width="175" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="40"/>
+                                <color key="textColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.021970520895832436" blue="0.28076424870466321" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="7rJ-YC-EI7"/>
@@ -1141,7 +1141,7 @@ Salted butter optional for serving</string>
                                                 <rect key="frame" x="44" y="541" width="327" height="390"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" red="1" green="0.98411681920000005" blue="0.87257982239999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <string key="text">Ingredients:                                         1 tablespoon butter
+                                                <mutableString key="text">Chrissy Teigen’s French Toast Casserole With Salted Frosted Flakes                                          -                                                                      Ingredients:                                         1 tablespoon butter
 1 pound French bread (1 large loaf), cut into 1-inch pieces
 8 large eggs
 2 cups heavy cream
@@ -1151,7 +1151,7 @@ Salted butter optional for serving</string>
 1 tablespoon pure vanilla extract
 1 teaspoon ground cinnamon
 1/2 teaspoon freshly grated nutmeg
-</string>
+</mutableString>
                                                 <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                                 <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="17"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1620,19 +1620,12 @@ The Topping
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Dinner" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z0R-Ye-HWt">
-                                <rect key="frame" x="162" y="174" width="90" height="52"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="25"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LIL-DO-nCW">
                                 <rect key="frame" x="19" y="298" width="383" height="62"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="21"/>
                                 <state key="normal" title="Dolly Parton's Chicken and Dumplings">
-                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    <color key="titleColor" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <segue destination="8HY-Lu-SGo" kind="show" id="6VS-p7-MXB"/>
@@ -1643,7 +1636,7 @@ The Topping
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="21"/>
                                 <state key="normal" title="Taylor Swift's Spaghetti and Meatballs">
-                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    <color key="titleColor" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <segue destination="NBY-P6-iVg" kind="show" id="AEp-Zj-dX8"/>
@@ -1657,6 +1650,13 @@ The Topping
                                     <segue destination="uxS-mG-zbX" kind="show" id="0Rr-Ss-o64"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Dinner" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z0R-Ye-HWt">
+                                <rect key="frame" x="147" y="178" width="126" height="93"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="36"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.85992498254158622" green="0.91545282212295376" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <viewLayoutGuide key="safeArea" id="92Z-Dc-To2"/>
@@ -1710,6 +1710,70 @@ The Topping
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <string key="image">eyJidWNrZXQiOiJsb21hLW1lZGlhLXVrIiwia2V5IjoiZm9vZG5ldHdvcmstaW1hZ2UtNzViZGU0OWYtZGQ4NC00YjljLTgxZjktYTkxMGQ5MTViYTA0LmpwZWciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjc1MCwiaGVpZ2h0Ijo0MjIsImZpdCI6ImNvdmVyIn19fQ==</string>
                                             </imageView>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Yfe-DY-dWK">
+                                                <rect key="frame" x="42" y="448" width="327" height="311"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <string key="text">Ingredients:                                      225g minced veal
+225g minced pork
+450g minced beef
+60g fresh white breadcrumbs (4 slices, crusts removed)
+40g seasoned dried breadcrumbs
+2 tablespoons chopped fresh flat-leaf parsley
+45g freshly grated Parmesan cheese
+2 teaspoons salt
+1/ tsp freshly ground black pepper
+1/4 tsp ground nutmeg
+1 large egg, beaten                          Spaghetti </string>
+                                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="17"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="lU5-aX-yVd">
+                                                <rect key="frame" x="45" y="785" width="327" height="135"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <string key="text">For the meatballs: 
+1) Place the minced meats, breadcrumbs, parsley, Parmesan, salt, pepper, nutmeg, egg and 180ml of warm water in a bowl and combine</string>
+                                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="17"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="8GC-so-ZPa">
+                                                <rect key="frame" x="45" y="914" width="327" height="422"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <mutableString key="text">very lightly with a fork. Using your hands, lightly form the mixture into 4cm meatballs. You will have 14 to 16 meatballs.
+2) Pour equal amounts of vegetable oil and olive oil into a large frying pan to a depth of 1cm and heat. Very carefully, in batches, place the meatballs in the hot oil and brown them well on all sides over a medium-low heat, turning carefully with a spatula or a fork, about 10 minutes for each batch. Don't crowd the meatballs. Remove cooked meatballs to a plate covered with paper towels. Discard the oil but don't clean the pan.</mutableString>
+                                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="17"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="hi2-uh-GXh">
+                                                <rect key="frame" x="45" y="1344" width="327" height="446"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <string key="text">For the spaghetti sauce: 
+1) Heat the olive oil in the same pan. Add the onion and saute over medium heat until translucent, 5 to 10 minutes. Add the garlic and cook for 1 more minute.
+2) Add the wine and cook on a high heat, scraping up all the brown bits in the pan, until almost all the liquid evaporates, about 3 minutes. Stir in the tomatoes, parsley, salt and pepper.
+3) Return the meatballs to the sauce, cover, and simmer on the lowest heat for 25 to 30 minutes, until the meatballs are cooked through.
+
+</string>
+                                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="17"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="8RX-RE-hoK">
+                                                <rect key="frame" x="45" y="1749" width="327" height="220"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <string key="text">For the spaghetti:
+1) Cook the spaghetti in boiling, salted water according to the package instructions.
+2) Serve the meatballs hot on the cooked spaghetti and pass the grated Parmesan for garnish. </string>
+                                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="17"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                         <constraints>
@@ -2102,12 +2166,13 @@ The Topping
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="0Rr-Ss-o64"/>
+        <segue reference="wBP-hE-xvl"/>
+        <segue reference="uIn-fQ-2AU"/>
         <segue reference="6VS-p7-MXB"/>
         <segue reference="Ag3-Vw-2cj"/>
         <segue reference="5gE-vS-8Tv"/>
         <segue reference="xiT-dg-NW5"/>
-        <segue reference="m0s-7i-350"/>
+        <segue reference="lp0-x5-jOn"/>
         <segue reference="bE5-Xn-CkW"/>
         <segue reference="2rC-Fv-JhV"/>
         <segue reference="VmT-TA-gwh"/>
